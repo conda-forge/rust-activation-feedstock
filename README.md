@@ -175,17 +175,31 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_channel_targetsconda-forge_mainversion1.49.0</td>
+              <td>osx_arm64_channel_targetsconda-forge_maincross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangversion1.49.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=master&jobName=osx&configuration=osx_arm64_channel_targetsconda-forge_mainversion1.49.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=master&jobName=osx&configuration=osx_arm64_channel_targetsconda-forge_maincross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangversion1.49.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_channel_targetsconda-forge_rust_devversion1.49.0.dev20201015</td>
+              <td>osx_arm64_channel_targetsconda-forge_maincross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangversion1.49.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=master&jobName=osx&configuration=osx_arm64_channel_targetsconda-forge_rust_devversion1.49.0.dev20201015" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=master&jobName=osx&configuration=osx_arm64_channel_targetsconda-forge_maincross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangversion1.49.0" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_channel_targetsconda-forge_rust_devcross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangversion1.49.0.dev20201015</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=master&jobName=osx&configuration=osx_arm64_channel_targetsconda-forge_rust_devcross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangversion1.49.0.dev20201015" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_channel_targetsconda-forge_rust_devcross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangversion1.49.0.dev20201015</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=master&jobName=osx&configuration=osx_arm64_channel_targetsconda-forge_rust_devcross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangversion1.49.0.dev20201015" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -215,13 +229,9 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-rust--gnu_linux--64-green.svg)](https://anaconda.org/conda-forge/rust-gnu_linux-64) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/rust-gnu_linux-64.svg)](https://anaconda.org/conda-forge/rust-gnu_linux-64) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/rust-gnu_linux-64.svg)](https://anaconda.org/conda-forge/rust-gnu_linux-64) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/rust-gnu_linux-64.svg)](https://anaconda.org/conda-forge/rust-gnu_linux-64) |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-rust_linux--64-green.svg)](https://anaconda.org/conda-forge/rust_linux-64) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/rust_linux-64.svg)](https://anaconda.org/conda-forge/rust_linux-64) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/rust_linux-64.svg)](https://anaconda.org/conda-forge/rust_linux-64) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/rust_linux-64.svg)](https://anaconda.org/conda-forge/rust_linux-64) |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-rust_linux--aarch64-green.svg)](https://anaconda.org/conda-forge/rust_linux-aarch64) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/rust_linux-aarch64.svg)](https://anaconda.org/conda-forge/rust_linux-aarch64) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/rust_linux-aarch64.svg)](https://anaconda.org/conda-forge/rust_linux-aarch64) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/rust_linux-aarch64.svg)](https://anaconda.org/conda-forge/rust_linux-aarch64) |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-rust_linux--ppc64le-green.svg)](https://anaconda.org/conda-forge/rust_linux-ppc64le) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/rust_linux-ppc64le.svg)](https://anaconda.org/conda-forge/rust_linux-ppc64le) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/rust_linux-ppc64le.svg)](https://anaconda.org/conda-forge/rust_linux-ppc64le) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/rust_linux-ppc64le.svg)](https://anaconda.org/conda-forge/rust_linux-ppc64le) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-rust--gnu_osx--arm64-green.svg)](https://anaconda.org/conda-forge/rust-gnu_osx-arm64) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/rust-gnu_osx-arm64.svg)](https://anaconda.org/conda-forge/rust-gnu_osx-arm64) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/rust-gnu_osx-arm64.svg)](https://anaconda.org/conda-forge/rust-gnu_osx-arm64) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/rust-gnu_osx-arm64.svg)](https://anaconda.org/conda-forge/rust-gnu_osx-arm64) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-rust_osx--64-green.svg)](https://anaconda.org/conda-forge/rust_osx-64) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/rust_osx-64.svg)](https://anaconda.org/conda-forge/rust_osx-64) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/rust_osx-64.svg)](https://anaconda.org/conda-forge/rust_osx-64) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/rust_osx-64.svg)](https://anaconda.org/conda-forge/rust_osx-64) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-rust_osx--arm64-green.svg)](https://anaconda.org/conda-forge/rust_osx-arm64) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/rust_osx-arm64.svg)](https://anaconda.org/conda-forge/rust_osx-arm64) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/rust_osx-arm64.svg)](https://anaconda.org/conda-forge/rust_osx-arm64) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/rust_osx-arm64.svg)](https://anaconda.org/conda-forge/rust_osx-arm64) |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-rust_win--64-green.svg)](https://anaconda.org/conda-forge/rust_win-64) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/rust_win-64.svg)](https://anaconda.org/conda-forge/rust_win-64) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/rust_win-64.svg)](https://anaconda.org/conda-forge/rust_win-64) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/rust_win-64.svg)](https://anaconda.org/conda-forge/rust_win-64) |
 
 Installing rust-activation
 ==========================
@@ -232,16 +242,16 @@ Installing `rust-activation` from the `conda-forge` channel can be achieved by a
 conda config --add channels conda-forge
 ```
 
-Once the `conda-forge` channel has been enabled, `rust-gnu_linux-64, rust_linux-64, rust_linux-aarch64, rust_linux-ppc64le, rust_osx-64, rust_osx-arm64, rust_win-64` can be installed with:
+Once the `conda-forge` channel has been enabled, `rust-gnu_osx-arm64, rust_osx-64, rust_osx-arm64` can be installed with:
 
 ```
-conda install rust-gnu_linux-64 rust_linux-64 rust_linux-aarch64 rust_linux-ppc64le rust_osx-64 rust_osx-arm64 rust_win-64
+conda install rust-gnu_osx-arm64 rust_osx-64 rust_osx-arm64
 ```
 
-It is possible to list all of the versions of `rust-gnu_linux-64` available on your platform with:
+It is possible to list all of the versions of `rust-gnu_osx-arm64` available on your platform with:
 
 ```
-conda search rust-gnu_linux-64 --channel conda-forge
+conda search rust-gnu_osx-arm64 --channel conda-forge
 ```
 
 
