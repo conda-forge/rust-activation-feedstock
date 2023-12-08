@@ -1,5 +1,5 @@
 {% if version is undefined %}
-{% set version = "1.73.0" %}
+{% set version = "1.74.0" %}
 {% endif %}
 
 {% if cross_target_platform is undefined %}
