@@ -8,11 +8,11 @@ jobs:
     vmImage: windows-2022
   strategy:
     matrix:
-      win_64_channel_targetsconda-forge_mainversion1.77.2:
-        CONFIG: win_64_channel_targetsconda-forge_mainversion1.77.2
+      win_64_channel_targetsconda-forge_main:
+        CONFIG: win_64_channel_targetsconda-forge_main
         UPLOAD_PACKAGES: 'True'
-      win_64_channel_targetsconda-forge_rust_devversion1.78.0:
-        CONFIG: win_64_channel_targetsconda-forge_rust_devversion1.78.0
+      win_64_channel_targetsconda-forge_rust_dev:
+        CONFIG: win_64_channel_targetsconda-forge_rust_dev
         UPLOAD_PACKAGES: 'True'
   timeoutInMinutes: 360
   variables:
