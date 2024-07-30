@@ -8,6 +8,10 @@ jobs:
     vmImage: ubuntu-latest
   strategy:
     matrix:
+      linux_64_channel_targetsconda-forge_h2d42a057ee:
+        CONFIG: linux_64_channel_targetsconda-forge_h2d42a057ee
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       linux_64_channel_targetsconda-forge_h316447410d:
         CONFIG: linux_64_channel_targetsconda-forge_h316447410d
         UPLOAD_PACKAGES: 'True'
@@ -16,28 +20,24 @@ jobs:
         CONFIG: linux_64_channel_targetsconda-forge_h4dcbb8d61e
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_channel_targetsconda-forge_h902f8f95ae:
-        CONFIG: linux_64_channel_targetsconda-forge_h902f8f95ae
+      linux_64_channel_targetsconda-forge_h8796c34e81:
+        CONFIG: linux_64_channel_targetsconda-forge_h8796c34e81
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_channel_targetsconda-forge_h94162cd794:
-        CONFIG: linux_64_channel_targetsconda-forge_h94162cd794
+      ? linux_64_channel_targetsconda-forge_maincross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_LINUX_GNUrust_default_ccx86_64-conda-linux-gnu-cctarget_c_stdlib_version2.17version1.80.0
+      : CONFIG: linux_64_channel_targetsconda-forge_maincross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_LINUX_GNUrust_default_ccx86_64-conda-linux-gnu-cctarget_c_stdlib_version2.17version1.80.0
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      ? linux_64_channel_targetsconda-forge_maincross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_LINUX_GNUrust_default_ccx86_64-conda-linux-gnu-cctarget_c_stdlib_version2.17version1.79.0
-      : CONFIG: linux_64_channel_targetsconda-forge_maincross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_LINUX_GNUrust_default_ccx86_64-conda-linux-gnu-cctarget_c_stdlib_version2.17version1.79.0
+      ? linux_64_channel_targetsconda-forge_maincross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_stdlib_version10.13version1.80.0
+      : CONFIG: linux_64_channel_targetsconda-forge_maincross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_stdlib_version10.13version1.80.0
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      ? linux_64_channel_targetsconda-forge_maincross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_stdlib_version10.13version1.79.0
-      : CONFIG: linux_64_channel_targetsconda-forge_maincross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_stdlib_version10.13version1.79.0
+      ? linux_64_channel_targetsconda-forge_maincross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangtarget_c_stdlib_version11.0version1.80.0
+      : CONFIG: linux_64_channel_targetsconda-forge_maincross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangtarget_c_stdlib_version11.0version1.80.0
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      ? linux_64_channel_targetsconda-forge_maincross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangtarget_c_stdlib_version11.0version1.79.0
-      : CONFIG: linux_64_channel_targetsconda-forge_maincross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangtarget_c_stdlib_version11.0version1.79.0
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      ? linux_64_channel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version0version1.79.0
-      : CONFIG: linux_64_channel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version0version1.79.0
+      ? linux_64_channel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version0version1.80.0
+      : CONFIG: linux_64_channel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version0version1.80.0
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       ? linux_64_channel_targetsconda-forge_rust_devcross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_LINUX_GNUrust_default_ccx86_64-conda-linux-gnu-cctarget_c_stdlib_version2.17version1.81.0
@@ -56,16 +56,16 @@ jobs:
       : CONFIG: linux_64_channel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version0version1.81.0
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      ? linux_aarch64_channel_targetsconda-forge_maincross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_LINUX_GNUrust_default_ccx86_64-conda-linux-gnu-ccversion1.79.0
-      : CONFIG: linux_aarch64_channel_targetsconda-forge_maincross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_LINUX_GNUrust_default_ccx86_64-conda-linux-gnu-ccversion1.79.0
+      ? linux_aarch64_channel_targetsconda-forge_maincross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_LINUX_GNUrust_default_ccx86_64-conda-linux-gnu-ccversion1.80.0
+      : CONFIG: linux_aarch64_channel_targetsconda-forge_maincross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_LINUX_GNUrust_default_ccx86_64-conda-linux-gnu-ccversion1.80.0
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      ? linux_aarch64_channel_targetsconda-forge_maincross_target_platformlinux-aarch64rust_archaarch64-unknown-linux-gnurust_arch_envAARCH64_UNKNOWN_LINUX_GNUrust_default_ccaarch64-conda-linux-gnu-ccversion1.79.0
-      : CONFIG: linux_aarch64_channel_targetsconda-forge_maincross_target_platformlinux-aarch64rust_archaarch64-unknown-linux-gnurust_arch_envAARCH64_UNKNOWN_LINUX_GNUrust_default_ccaarch64-conda-linux-gnu-ccversion1.79.0
+      ? linux_aarch64_channel_targetsconda-forge_maincross_target_platformlinux-aarch64rust_archaarch64-unknown-linux-gnurust_arch_envAARCH64_UNKNOWN_LINUX_GNUrust_default_ccaarch64-conda-linux-gnu-ccversion1.80.0
+      : CONFIG: linux_aarch64_channel_targetsconda-forge_maincross_target_platformlinux-aarch64rust_archaarch64-unknown-linux-gnurust_arch_envAARCH64_UNKNOWN_LINUX_GNUrust_default_ccaarch64-conda-linux-gnu-ccversion1.80.0
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      ? linux_aarch64_channel_targetsconda-forge_maincross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arch_envPOWERPC64LE_UNKNOWN_LINUX_GNUrust_default_ccpowerpc64le-conda-linux-gnu-ccversion1.79.0
-      : CONFIG: linux_aarch64_channel_targetsconda-forge_maincross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arch_envPOWERPC64LE_UNKNOWN_LINUX_GNUrust_default_ccpowerpc64le-conda-linux-gnu-ccversion1.79.0
+      ? linux_aarch64_channel_targetsconda-forge_maincross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arch_envPOWERPC64LE_UNKNOWN_LINUX_GNUrust_default_ccpowerpc64le-conda-linux-gnu-ccversion1.80.0
+      : CONFIG: linux_aarch64_channel_targetsconda-forge_maincross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arch_envPOWERPC64LE_UNKNOWN_LINUX_GNUrust_default_ccpowerpc64le-conda-linux-gnu-ccversion1.80.0
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       ? linux_aarch64_channel_targetsconda-forge_rust_devcross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_LINUX_GNUrust_default_ccx86_64-conda-linux-gnu-ccversion1.81.0
@@ -80,16 +80,16 @@ jobs:
       : CONFIG: linux_aarch64_channel_targetsconda-forge_rust_devcross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arch_envPOWERPC64LE_UNKNOWN_LINUX_GNUrust_default_ccpowerpc64le-conda-linux-gnu-ccversion1.81.0
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      ? linux_ppc64le_channel_targetsconda-forge_maincross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_LINUX_GNUrust_default_ccx86_64-conda-linux-gnu-ccversion1.79.0
-      : CONFIG: linux_ppc64le_channel_targetsconda-forge_maincross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_LINUX_GNUrust_default_ccx86_64-conda-linux-gnu-ccversion1.79.0
+      ? linux_ppc64le_channel_targetsconda-forge_maincross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_LINUX_GNUrust_default_ccx86_64-conda-linux-gnu-ccversion1.80.0
+      : CONFIG: linux_ppc64le_channel_targetsconda-forge_maincross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_LINUX_GNUrust_default_ccx86_64-conda-linux-gnu-ccversion1.80.0
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      ? linux_ppc64le_channel_targetsconda-forge_maincross_target_platformlinux-aarch64rust_archaarch64-unknown-linux-gnurust_arch_envAARCH64_UNKNOWN_LINUX_GNUrust_default_ccaarch64-conda-linux-gnu-ccversion1.79.0
-      : CONFIG: linux_ppc64le_channel_targetsconda-forge_maincross_target_platformlinux-aarch64rust_archaarch64-unknown-linux-gnurust_arch_envAARCH64_UNKNOWN_LINUX_GNUrust_default_ccaarch64-conda-linux-gnu-ccversion1.79.0
+      ? linux_ppc64le_channel_targetsconda-forge_maincross_target_platformlinux-aarch64rust_archaarch64-unknown-linux-gnurust_arch_envAARCH64_UNKNOWN_LINUX_GNUrust_default_ccaarch64-conda-linux-gnu-ccversion1.80.0
+      : CONFIG: linux_ppc64le_channel_targetsconda-forge_maincross_target_platformlinux-aarch64rust_archaarch64-unknown-linux-gnurust_arch_envAARCH64_UNKNOWN_LINUX_GNUrust_default_ccaarch64-conda-linux-gnu-ccversion1.80.0
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      ? linux_ppc64le_channel_targetsconda-forge_maincross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arch_envPOWERPC64LE_UNKNOWN_LINUX_GNUrust_default_ccpowerpc64le-conda-linux-gnu-ccversion1.79.0
-      : CONFIG: linux_ppc64le_channel_targetsconda-forge_maincross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arch_envPOWERPC64LE_UNKNOWN_LINUX_GNUrust_default_ccpowerpc64le-conda-linux-gnu-ccversion1.79.0
+      ? linux_ppc64le_channel_targetsconda-forge_maincross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arch_envPOWERPC64LE_UNKNOWN_LINUX_GNUrust_default_ccpowerpc64le-conda-linux-gnu-ccversion1.80.0
+      : CONFIG: linux_ppc64le_channel_targetsconda-forge_maincross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arch_envPOWERPC64LE_UNKNOWN_LINUX_GNUrust_default_ccpowerpc64le-conda-linux-gnu-ccversion1.80.0
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       ? linux_ppc64le_channel_targetsconda-forge_rust_devcross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_LINUX_GNUrust_default_ccx86_64-conda-linux-gnu-ccversion1.81.0
