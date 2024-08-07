@@ -8,8 +8,8 @@ jobs:
     vmImage: windows-2022
   strategy:
     matrix:
-      win_64_channel_targetsconda-forge_mainversion1.79.0:
-        CONFIG: win_64_channel_targetsconda-forge_mainversion1.79.0
+      win_64_channel_targetsconda-forge_mainversion1.80.0:
+        CONFIG: win_64_channel_targetsconda-forge_mainversion1.80.0
         UPLOAD_PACKAGES: 'True'
       win_64_channel_targetsconda-forge_rust_devversion1.81.0:
         CONFIG: win_64_channel_targetsconda-forge_rust_devversion1.81.0
@@ -27,7 +27,7 @@ jobs:
         scriptSource: inline
         script: |
           import urllib.request
-          url = 'https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-Windows-x86_64.exe'
+          url = 'https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Windows-x86_64.exe'
           path = r"$(Build.ArtifactStagingDirectory)/Miniforge.exe"
           urllib.request.urlretrieve(url, path)
 
