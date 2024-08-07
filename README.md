@@ -323,14 +323,14 @@ Current release info
 Installing rust-activation
 ==========================
 
-Installing `rust-activation` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `rust-activation` from the `conda-forge/label/rust_dev` channel can be achieved by adding `conda-forge/label/rust_dev` to your channels with:
 
 ```
-conda config --add channels conda-forge
+conda config --add channels conda-forge/label/rust_dev
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `rust_linux-64, rust_linux-aarch64, rust_linux-ppc64le, rust_osx-64, rust_osx-arm64, rust_win-64` can be installed with `conda`:
+Once the `conda-forge/label/rust_dev` channel has been enabled, `rust_linux-64, rust_linux-aarch64, rust_linux-ppc64le, rust_osx-64, rust_osx-arm64, rust_win-64` can be installed with `conda`:
 
 ```
 conda install rust_linux-64 rust_linux-aarch64 rust_linux-ppc64le rust_osx-64 rust_osx-arm64 rust_win-64
@@ -345,26 +345,26 @@ mamba install rust_linux-64 rust_linux-aarch64 rust_linux-ppc64le rust_osx-64 ru
 It is possible to list all of the versions of `rust_linux-64` available on your platform with `conda`:
 
 ```
-conda search rust_linux-64 --channel conda-forge
+conda search rust_linux-64 --channel conda-forge/label/rust_dev
 ```
 
 or with `mamba`:
 
 ```
-mamba search rust_linux-64 --channel conda-forge
+mamba search rust_linux-64 --channel conda-forge/label/rust_dev
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search rust_linux-64 --channel conda-forge
+mamba repoquery search rust_linux-64 --channel conda-forge/label/rust_dev
 
 # List packages depending on `rust_linux-64`:
-mamba repoquery whoneeds rust_linux-64 --channel conda-forge
+mamba repoquery whoneeds rust_linux-64 --channel conda-forge/label/rust_dev
 
 # List dependencies of `rust_linux-64`:
-mamba repoquery depends rust_linux-64 --channel conda-forge
+mamba repoquery depends rust_linux-64 --channel conda-forge/label/rust_dev
 ```
 
 
