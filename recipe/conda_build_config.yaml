@@ -134,13 +134,13 @@ target_c_stdlib_version:
   # For osx-arm64 -> win-64 cross-compiling, set SDK version for the build system
   - 11.0                                # [osx and not x86_64]
 version:
-  - 1.81.0  # [linux]
-  - 1.81.0  # [linux]
-  - 1.81.0  # [linux]
-  - 1.81.0  # [linux64 or osx]
-  - 1.81.0  # [linux64 or osx]
-  - 1.81.0  # [linux64 or win64]
-  - 1.81.0  # [osx]
+  - 1.82.0  # [linux]
+  - 1.82.0  # [linux]
+  - 1.82.0  # [linux]
+  - 1.82.0  # [linux64 or osx]
+  - 1.82.0  # [linux64 or osx]
+  - 1.82.0  # [linux64 or win64]
+  - 1.82.0  # [osx]
 
   - 1.83.0  # [linux]
   - 1.83.0  # [linux]
