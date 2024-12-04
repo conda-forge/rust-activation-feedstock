@@ -32,7 +32,7 @@ elif [[ "@cross_target_platform@" == win* ]]; then
   export CPPFLAGS_@CONDA_RUST_HOST_LOWER@=""
 
   export CXXFLAGS_@CONDA_RUST_TARGET_LOWER@="${CXXFLAGS}"
-  export CXXFLAGS_@CONDA_RUST_HOST_LOWER@="" 
+  export CXXFLAGS_@CONDA_RUST_HOST_LOWER@=""
 
   export CC_@CONDA_RUST_TARGET_LOWER@=$CONDA_PREFIX/bin/clang-cl
   export CXX_@CONDA_RUST_TARGET_LOWER@=$CONDA_PREFIX/bin/clang-cl
@@ -49,3 +49,11 @@ elif [[ "@cross_target_platform@" == osx* ]]; then
 fi
 
 export PATH=${CARGO_HOME}/bin:${PATH}
+
+# cross compiling for unix platforms
+if [[ "@cross_target_platform@" == osx* || "@cross_target_platform@" == linux* ]]; then
+  if [[ "@CONDA_RUST_HOST_LOWER@" != "@CONDA_RUST_TARGET_LOWER@" ]]; then
+    # when cross compiling we must set `CARGO_TARGET_$rust_arch_env_build_RUSTFLAGS`
+    export CARGO_TARGET_@rust_arch_env_build@_RUSTFLAGS="-C link-arg=-Wl,-rpath,${BUILD_PREFIX:-${CONDA_PREFIX}}/lib"
+  fi
+fi
