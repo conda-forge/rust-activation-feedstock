@@ -91,6 +91,13 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>linux_64_channel_targetsconda-forge_maincross_target_platformwin-arm64rust_archaarch64-pc-windows-msvcrust_arch_envAARCH64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version0version1.83.0</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_targetsconda-forge_maincross_target_platformwin-arm64rust_archaarch64-pc-windows-msvcrust_arch_envAARCH64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version0version1.83.0" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>linux_64_channel_targetsconda-forge_rust_devcross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_LINUX_GNUrust_default_ccx86_64-conda-linux-gnu-cctarget_c_stdlib_version2.17version1.85.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
@@ -116,6 +123,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version0version1.85.0" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_channel_targetsconda-forge_rust_devcross_target_platformwin-arm64rust_archaarch64-pc-windows-msvcrust_arch_envAARCH64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version0version1.85.0</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_targetsconda-forge_rust_devcross_target_platformwin-arm64rust_archaarch64-pc-windows-msvcrust_arch_envAARCH64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version0version1.85.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -224,6 +238,13 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>osx_64_channel_targetsconda-forge_maincross_target_platformwin-arm64rust_archaarch64-pc-windows-msvcrust_arch_envAARCH64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version10.13version1.83.0</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_targetsconda-forge_maincross_target_platformwin-arm64rust_archaarch64-pc-windows-msvcrust_arch_envAARCH64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version10.13version1.83.0" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>osx_64_channel_targetsconda-forge_rust_devcross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_stdlib_version10.13version1.85.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
@@ -242,6 +263,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version10.13version1.85.0" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_channel_targetsconda-forge_rust_devcross_target_platformwin-arm64rust_archaarch64-pc-windows-msvcrust_arch_envAARCH64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version10.13version1.85.0</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_targetsconda-forge_rust_devcross_target_platformwin-arm64rust_archaarch64-pc-windows-msvcrust_arch_envAARCH64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version10.13version1.85.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -266,6 +294,13 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>osx_arm64_channel_targetsconda-forge_maincross_target_platformwin-arm64rust_archaarch64-pc-windows-msvcrust_arch_envAARCH64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version11.0version1.83.0</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_targetsconda-forge_maincross_target_platformwin-arm64rust_archaarch64-pc-windows-msvcrust_arch_envAARCH64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version11.0version1.83.0" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>osx_arm64_channel_targetsconda-forge_rust_devcross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_stdlib_version10.13version1.85.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
@@ -287,17 +322,38 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_channel_targetsconda-forge_mainversion1.83.0</td>
+              <td>osx_arm64_channel_targetsconda-forge_rust_devcross_target_platformwin-arm64rust_archaarch64-pc-windows-msvcrust_arch_envAARCH64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version11.0version1.85.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=win&configuration=win%20win_64_channel_targetsconda-forge_mainversion1.83.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_targetsconda-forge_rust_devcross_target_platformwin-arm64rust_archaarch64-pc-windows-msvcrust_arch_envAARCH64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version11.0version1.85.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_channel_targetsconda-forge_rust_devversion1.85.0</td>
+              <td>win_64_channel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCversion1.83.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=win&configuration=win%20win_64_channel_targetsconda-forge_rust_devversion1.85.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=win&configuration=win%20win_64_channel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCversion1.83.0" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_channel_targetsconda-forge_maincross_target_platformwin-arm64rust_archaarch64-pc-windows-msvcrust_arch_envAARCH64_PC_WINDOWS_MSVCversion1.83.0</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=win&configuration=win%20win_64_channel_targetsconda-forge_maincross_target_platformwin-arm64rust_archaarch64-pc-windows-msvcrust_arch_envAARCH64_PC_WINDOWS_MSVCversion1.83.0" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_channel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCversion1.85.0</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=win&configuration=win%20win_64_channel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCversion1.85.0" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_channel_targetsconda-forge_rust_devcross_target_platformwin-arm64rust_archaarch64-pc-windows-msvcrust_arch_envAARCH64_PC_WINDOWS_MSVCversion1.85.0</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=win&configuration=win%20win_64_channel_targetsconda-forge_rust_devcross_target_platformwin-arm64rust_archaarch64-pc-windows-msvcrust_arch_envAARCH64_PC_WINDOWS_MSVCversion1.85.0" alt="variant">
                 </a>
               </td>
             </tr>
@@ -319,6 +375,7 @@ Current release info
 | [![Conda Recipe](https://img.shields.io/badge/recipe-rust_osx--64-green.svg)](https://anaconda.org/conda-forge/rust_osx-64) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/rust_osx-64.svg)](https://anaconda.org/conda-forge/rust_osx-64) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/rust_osx-64.svg)](https://anaconda.org/conda-forge/rust_osx-64) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/rust_osx-64.svg)](https://anaconda.org/conda-forge/rust_osx-64) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-rust_osx--arm64-green.svg)](https://anaconda.org/conda-forge/rust_osx-arm64) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/rust_osx-arm64.svg)](https://anaconda.org/conda-forge/rust_osx-arm64) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/rust_osx-arm64.svg)](https://anaconda.org/conda-forge/rust_osx-arm64) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/rust_osx-arm64.svg)](https://anaconda.org/conda-forge/rust_osx-arm64) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-rust_win--64-green.svg)](https://anaconda.org/conda-forge/rust_win-64) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/rust_win-64.svg)](https://anaconda.org/conda-forge/rust_win-64) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/rust_win-64.svg)](https://anaconda.org/conda-forge/rust_win-64) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/rust_win-64.svg)](https://anaconda.org/conda-forge/rust_win-64) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-rust_win--arm64-green.svg)](https://anaconda.org/conda-forge/rust_win-arm64) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/rust_win-arm64.svg)](https://anaconda.org/conda-forge/rust_win-arm64) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/rust_win-arm64.svg)](https://anaconda.org/conda-forge/rust_win-arm64) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/rust_win-arm64.svg)](https://anaconda.org/conda-forge/rust_win-arm64) |
 
 Installing rust-activation
 ==========================
@@ -330,16 +387,16 @@ conda config --add channels conda-forge/label/rust_dev
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge/label/rust_dev` channel has been enabled, `rust_linux-64, rust_linux-aarch64, rust_linux-ppc64le, rust_osx-64, rust_osx-arm64, rust_win-64` can be installed with `conda`:
+Once the `conda-forge/label/rust_dev` channel has been enabled, `rust_linux-64, rust_linux-aarch64, rust_linux-ppc64le, rust_osx-64, rust_osx-arm64, rust_win-64, rust_win-arm64` can be installed with `conda`:
 
 ```
-conda install rust_linux-64 rust_linux-aarch64 rust_linux-ppc64le rust_osx-64 rust_osx-arm64 rust_win-64
+conda install rust_linux-64 rust_linux-aarch64 rust_linux-ppc64le rust_osx-64 rust_osx-arm64 rust_win-64 rust_win-arm64
 ```
 
 or with `mamba`:
 
 ```
-mamba install rust_linux-64 rust_linux-aarch64 rust_linux-ppc64le rust_osx-64 rust_osx-arm64 rust_win-64
+mamba install rust_linux-64 rust_linux-aarch64 rust_linux-ppc64le rust_osx-64 rust_osx-arm64 rust_win-64 rust_win-arm64
 ```
 
 It is possible to list all of the versions of `rust_linux-64` available on your platform with `conda`:
