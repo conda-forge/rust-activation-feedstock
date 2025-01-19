@@ -67,7 +67,8 @@ outputs:
         - file $PREFIX/.cargo/bin/xsv | grep "ELF 64-bit LSB pie executable, x86-64"  # [unix and cross_target_platform == "linux-64"]
         - file $PREFIX/.cargo/bin/xsv | grep "ELF 64-bit LSB pie executable, ARM aarch64"  # [unix and cross_target_platform == "linux-aarch64"]
         - file $PREFIX/.cargo/bin/xsv | grep "ELF 64-bit LSB pie executable, 64-bit PowerPC"  # [unix and cross_target_platform == "linux-ppc64le"]
-        - file $PREFIX/.cargo/bin/xsv.exe  | grep "PE32+ executable (console) x86-64, for MS Windows"  # [unix and cross_target_platform == "win-64"]
+        - file $PREFIX/.cargo/bin/xsv.exe  # [unix and cross_target_platform == "win-64"]
+        - file $PREFIX/.cargo/bin/xsv.exe  | grep "PE32+ executable for MS Windows" | grep x86-64  # [unix and cross_target_platform == "win-64"]
 
 
   - name: rust-gnu_{{ target_platform }}
