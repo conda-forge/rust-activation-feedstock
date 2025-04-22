@@ -81,11 +81,11 @@ MACOSX_SDK_VERSION:
   - 10.13                               # [linux64 or osx]
   - 11.0                                # [linux64 or osx]
   - 0                                   # [linux64 or win64]
-  - 0                                   # [win64]
   # For osx-64 -> win-64 cross-compiling, set SDK version for the build system
   - 10.13                               # [osx and x86_64]
   # For osx-arm64 -> win-64 cross-compiling, set SDK version for the build system
   - 11.0                                # [osx and not x86_64]
+  - 0                                   # [win64]
 
   - 0                                   # [linux]
   - 0                                   # [linux]
@@ -93,11 +93,11 @@ MACOSX_SDK_VERSION:
   - 10.13                               # [linux64 or osx]
   - 11.0                                # [linux64 or osx]
   - 0                                   # [linux64 or win64]
-  - 0                                   # [win64]
   # For osx-64 -> win-64 cross-compiling, set SDK version for the build system
   - 10.13                               # [osx and x86_64]
   # For osx-arm64 -> win-64 cross-compiling, set SDK version for the build system
   - 11.0                                # [osx and not x86_64]
+  - 0                                   # [win64]
 MACOSX_DEPLOYMENT_TARGET:
   - 0                                   # [linux]
   - 0                                   # [linux]
@@ -105,11 +105,11 @@ MACOSX_DEPLOYMENT_TARGET:
   - 10.13                               # [linux64 or osx]
   - 11.0                                # [linux64 or osx]
   - 0                                   # [linux64 or win64]
-  - 0                                   # [win64]
   # For osx-64 -> win-64 cross-compiling, set SDK version for the build system
   - 10.13                               # [osx and x86_64]
   # For osx-arm64 -> win-64 cross-compiling, set SDK version for the build system
   - 11.0                                # [osx and not x86_64]
+  - 0                                   # [win64]
 
   - 0                                   # [linux]
   - 0                                   # [linux]
@@ -117,11 +117,11 @@ MACOSX_DEPLOYMENT_TARGET:
   - 10.13                               # [linux64 or osx]
   - 11.0                                # [linux64 or osx]
   - 0                                   # [linux64 or win64]
-  - 0                                   # [win64]
   # For osx-64 -> win-64 cross-compiling, set SDK version for the build system
   - 10.13                               # [osx and x86_64]
   # For osx-arm64 -> win-64 cross-compiling, set SDK version for the build system
   - 11.0                                # [osx and not x86_64]
+  - 0                                   # [win64]
 # Don't call it c_stdlib_version as otherwise, we will get conflicts with cdt_name zipping
 # This is also the version for the target, not the host (for cross-compilers)
 target_c_stdlib_version:
@@ -131,11 +131,11 @@ target_c_stdlib_version:
   - 10.13                               # [linux64 or osx]
   - 11.0                                # [linux64 or osx]
   - 0                                   # [linux64 or win64]
-  - 0                                   # [win64]
   # For osx-64 -> win-64 cross-compiling, set deployment target for the build system
   - 10.13                               # [osx and x86_64]
   # For osx-arm64 -> win-64 cross-compiling, set SDK version for the build system
   - 11.0                                # [osx and not x86_64]
+  - 0                                   # [win64]
 
   - '2.17'                              # [linux]
   - '2.17'                              # [linux]
@@ -143,11 +143,11 @@ target_c_stdlib_version:
   - 10.13                               # [linux64 or osx]
   - 11.0                                # [linux64 or osx]
   - 0                                   # [linux64 or win64]
-  - 0                                   # [win64]
   # For osx-64 -> win-64 cross-compiling, set deployment target for the build system
   - 10.13                               # [osx and x86_64]
   # For osx-arm64 -> win-64 cross-compiling, set SDK version for the build system
   - 11.0                                # [osx and not x86_64]
+  - 0                                   # [win64]
 version:
   - 1.86.0  # [linux]
   - 1.86.0  # [linux]
