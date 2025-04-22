@@ -70,10 +70,6 @@ outputs:
         - file $PREFIX/.cargo/bin/xsv.exe  # [unix and cross_target_platform == "win-64"]
         - file $PREFIX/.cargo/bin/xsv.exe  | grep "PE32+ executable for MS Windows" | grep x86-64  # [unix and cross_target_platform == "win-64"]
 
-        # TODO: This is wrong but I need to figure out what the correct value is
-        - file $PREFIX/.cargo/bin/xsv.exe  | grep "executable (console)"  # [unix and cross_target_platform == "win-arm64"]
-
-
   - name: rust-gnu_{{ target_platform }}
     script: bld.bat
     build:
