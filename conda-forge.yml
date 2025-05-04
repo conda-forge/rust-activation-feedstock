@@ -9,3 +9,6 @@ github:
   tooling_branch_name: main
 conda_build:
   pkg_format: '2'
+linter:
+  skip:
+    - lint_stdlib
