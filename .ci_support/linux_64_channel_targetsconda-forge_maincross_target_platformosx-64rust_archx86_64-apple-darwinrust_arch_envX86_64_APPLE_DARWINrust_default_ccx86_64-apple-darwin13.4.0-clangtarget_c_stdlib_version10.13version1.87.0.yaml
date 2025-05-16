@@ -27,7 +27,7 @@ target_c_stdlib_version:
 target_platform:
 - linux-64
 version:
-- 1.86.0
+- 1.87.0
 zip_keys:
 - - cross_target_platform
   - rust_arch
