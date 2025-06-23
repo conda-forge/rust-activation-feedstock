@@ -2,6 +2,7 @@
 
 export CARGO_HOME=${CONDA_PREFIX}/.cargo
 export CARGO_CONFIG=${CARGO_HOME}/config
+export CARGO="cargo-auditable-wrapper"
 export RUSTUP_HOME=${CARGO_HOME}/rustup
 
 [[ -d ${CARGO_HOME} ]] || mkdir -p ${CARGO_HOME}

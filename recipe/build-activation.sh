@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -x
+set -exuo pipefail
 
 mkdir -p ${PREFIX}/etc/conda/{de,}activate.d
 cp "${RECIPE_DIR}"/activate.sh activate.sh
@@ -13,3 +13,5 @@ sed -i.bak "s/@cross_target_platform@/$cross_target_platform/g" activate.sh
 sed -i.bak "s/@CONDA_RUST_HOST_LOWER@/$(echo $rust_arch_env_build | tr '[:upper:]' '[:lower:]')/g" activate.sh
 sed -i.bak "s/@CONDA_RUST_TARGET_LOWER@/$(echo $rust_arch_env | tr '[:upper:]' '[:lower:]')/g" activate.sh
 cp activate.sh ${PREFIX}/etc/conda/activate.d/activate_${PKG_NAME}.sh
+mkdir -p ${PREFIX}/bin
+cp ${RECIPE_DIR}/cargo-auditable-wrapper.sh $PREFIX/bin/cargo-auditable-wrapper
