@@ -11,12 +11,12 @@ package:
   version: {{ version }}
 
 build:
-  number: 1
+  number: 2
 
 outputs:
   - name: rust_{{ cross_target_platform }}
-    script: build.sh  # [unix]
-    script: bld.bat  # [win]
+    script: build-activation.sh  # [unix]
+    script: build-activation.bat  # [win]
     build:
       skip: True  # [win and vc<14]
       run_exports:
@@ -48,6 +48,7 @@ outputs:
         - vs_{{ cross_target_platform }} >=2019  # [win]
 {% endif %}
         - ld64_{{ target_platform }}  # [osx]
+        - cargo-auditable
     test:
       requires:
         - file  # [unix]
@@ -60,7 +61,8 @@ outputs:
         - rustc --help
         - rustdoc --help
         - cargo --help
-        - cargo install --force xsv
+        - ls $PREFIX/bin/cargo*
+        - $CARGO install --force xsv
         - file $PREFIX/.cargo/bin/xsv  # [unix and cross_target_platform != "win-64" and cross_target_platform != "win-arm64"]
         - file $PREFIX/.cargo/bin/xsv | grep "Mach-O 64-bit arm64 executable"  # [unix and cross_target_platform == "osx-arm64"]
         - file $PREFIX/.cargo/bin/xsv | grep "Mach-O 64-bit x86_64 executable"  # [unix and cross_target_platform == "osx-64"]
@@ -71,7 +73,7 @@ outputs:
         - file $PREFIX/.cargo/bin/xsv.exe  | grep "PE32+ executable for MS Windows" | grep x86-64  # [unix and cross_target_platform == "win-64"]
 
   - name: rust-gnu_{{ target_platform }}
-    script: bld.bat
+    script: build-activation.bat
     build:
       skip: True  # [not win]
       skip: True
