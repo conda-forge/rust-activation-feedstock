@@ -61,8 +61,8 @@ outputs:
         - rustc --help
         - rustdoc --help
         - cargo --help
-        - ls $PREFIX/bin/cargo*
-        - $CARGO install --force xsv
+        - "%CARGO% install --force xsv"  # [win]
+        - $CARGO install --force xsv   # [unix]
         - file $PREFIX/.cargo/bin/xsv  # [unix and cross_target_platform != "win-64" and cross_target_platform != "win-arm64"]
         - file $PREFIX/.cargo/bin/xsv | grep "Mach-O 64-bit arm64 executable"  # [unix and cross_target_platform == "osx-arm64"]
         - file $PREFIX/.cargo/bin/xsv | grep "Mach-O 64-bit x86_64 executable"  # [unix and cross_target_platform == "osx-64"]

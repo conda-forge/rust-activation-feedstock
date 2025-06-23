@@ -2,7 +2,7 @@ set CARGO_HOME=%CONDA_PREFIX%\.cargo
 set CARGO_CONFIG=%CARGO_HOME%\config
 set RUSTUP_HOME=%CARGO_HOME%\rustup
 set PATH=%CARGO_HOME%\bin:%PATH%
-set "CARGO=cargo auditable"
+set "CARGO=cargo-auditable-wrapper.bat"
 
 if not exist "%CARGO_HOME%" mkdir "%CARGO_HOME%"
 
