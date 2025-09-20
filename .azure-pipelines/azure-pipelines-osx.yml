@@ -5,44 +5,44 @@
 jobs:
 - job: osx
   pool:
-    vmImage: macOS-13
+    vmImage: macOS-15
   strategy:
     matrix:
-      ? osx_64_channel_targetsconda-forge_maincross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_stdlib_ver_h55176701
-      : CONFIG: osx_64_channel_targetsconda-forge_maincross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_stdlib_ver_h55176701
+      ? osx_64_channel_targetsconda-forge_maincross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_stdlib_ver_h944fb064
+      : CONFIG: osx_64_channel_targetsconda-forge_maincross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_stdlib_ver_h944fb064
         UPLOAD_PACKAGES: 'True'
-      ? osx_64_channel_targetsconda-forge_maincross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangtarget_c_stdlib_h7e320b25
-      : CONFIG: osx_64_channel_targetsconda-forge_maincross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangtarget_c_stdlib_h7e320b25
+      ? osx_64_channel_targetsconda-forge_maincross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangtarget_c_stdlib_hbfea5e5d
+      : CONFIG: osx_64_channel_targetsconda-forge_maincross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangtarget_c_stdlib_hbfea5e5d
         UPLOAD_PACKAGES: 'True'
-      ? osx_64_channel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version10.13version1.89.0
-      : CONFIG: osx_64_channel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version10.13version1.89.0
+      ? osx_64_channel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version10.13version1.90.0
+      : CONFIG: osx_64_channel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version10.13version1.90.0
         UPLOAD_PACKAGES: 'True'
-      ? osx_64_channel_targetsconda-forge_rust_devcross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_stdlib_h844a4f33
-      : CONFIG: osx_64_channel_targetsconda-forge_rust_devcross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_stdlib_h844a4f33
+      ? osx_64_channel_targetsconda-forge_rust_devcross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_stdlib_h53edb3b6
+      : CONFIG: osx_64_channel_targetsconda-forge_rust_devcross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_stdlib_h53edb3b6
         UPLOAD_PACKAGES: 'True'
-      ? osx_64_channel_targetsconda-forge_rust_devcross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangtarget_c_st_h02b9b96c
-      : CONFIG: osx_64_channel_targetsconda-forge_rust_devcross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangtarget_c_st_h02b9b96c
+      ? osx_64_channel_targetsconda-forge_rust_devcross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangtarget_c_st_hb1c49925
+      : CONFIG: osx_64_channel_targetsconda-forge_rust_devcross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangtarget_c_st_hb1c49925
         UPLOAD_PACKAGES: 'True'
-      ? osx_64_channel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version10.13version1.90.0
-      : CONFIG: osx_64_channel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version10.13version1.90.0
+      ? osx_64_channel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version10.13version1.92.0
+      : CONFIG: osx_64_channel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version10.13version1.92.0
         UPLOAD_PACKAGES: 'True'
-      ? osx_arm64_channel_targetsconda-forge_maincross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_stdlib__h5978d7b1
-      : CONFIG: osx_arm64_channel_targetsconda-forge_maincross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_stdlib__h5978d7b1
+      ? osx_arm64_channel_targetsconda-forge_maincross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_stdlib__h7a719b52
+      : CONFIG: osx_arm64_channel_targetsconda-forge_maincross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_stdlib__h7a719b52
         UPLOAD_PACKAGES: 'True'
-      ? osx_arm64_channel_targetsconda-forge_maincross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangtarget_c_std_h5acf7c54
-      : CONFIG: osx_arm64_channel_targetsconda-forge_maincross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangtarget_c_std_h5acf7c54
+      ? osx_arm64_channel_targetsconda-forge_maincross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangtarget_c_std_hb467f4b3
+      : CONFIG: osx_arm64_channel_targetsconda-forge_maincross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangtarget_c_std_hb467f4b3
         UPLOAD_PACKAGES: 'True'
-      ? osx_arm64_channel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version11.0version1.89.0
-      : CONFIG: osx_arm64_channel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version11.0version1.89.0
+      ? osx_arm64_channel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version11.0version1.90.0
+      : CONFIG: osx_arm64_channel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version11.0version1.90.0
         UPLOAD_PACKAGES: 'True'
-      ? osx_arm64_channel_targetsconda-forge_rust_devcross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_std_he1f7f8c1
-      : CONFIG: osx_arm64_channel_targetsconda-forge_rust_devcross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_std_he1f7f8c1
+      ? osx_arm64_channel_targetsconda-forge_rust_devcross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_std_h8e48881f
+      : CONFIG: osx_arm64_channel_targetsconda-forge_rust_devcross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_std_h8e48881f
         UPLOAD_PACKAGES: 'True'
-      ? osx_arm64_channel_targetsconda-forge_rust_devcross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangtarget_c_hee6d5f7c
-      : CONFIG: osx_arm64_channel_targetsconda-forge_rust_devcross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangtarget_c_hee6d5f7c
+      ? osx_arm64_channel_targetsconda-forge_rust_devcross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangtarget_c_hceee7f9f
+      : CONFIG: osx_arm64_channel_targetsconda-forge_rust_devcross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangtarget_c_hceee7f9f
         UPLOAD_PACKAGES: 'True'
-      ? osx_arm64_channel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version11.0ve_h98638a3f
-      : CONFIG: osx_arm64_channel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version11.0ve_h98638a3f
+      ? osx_arm64_channel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version11.0ve_h5eb39795
+      : CONFIG: osx_arm64_channel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version11.0ve_h5eb39795
         UPLOAD_PACKAGES: 'True'
   timeoutInMinutes: 360
   variables: {}
