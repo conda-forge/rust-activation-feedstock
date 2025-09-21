@@ -35,283 +35,283 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_channel_targetsconda-forge_maincross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_LINUX_GNUrust_default_ccx86_64-conda-linux-gnu-cctarget_c_st_ha984d8db</td>
+              <td>linux_64_channel_targetsconda-forge_maincross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_LINUX_GNUrust_default_ccx86_64-conda-linux-gnu-cctarget_c_st_h8f6068eb</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_targetsconda-forge_maincross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_LINUX_GNUrust_default_ccx86_64-conda-linux-gnu-cctarget_c_st_ha984d8db" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_targetsconda-forge_maincross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_LINUX_GNUrust_default_ccx86_64-conda-linux-gnu-cctarget_c_st_h8f6068eb" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_channel_targetsconda-forge_maincross_target_platformlinux-aarch64rust_archaarch64-unknown-linux-gnurust_arch_envAARCH64_UNKNOWN_LINUX_GNUrust_default_ccaarch64-conda-linux-gnu-cctar_h3db9ca0b</td>
+              <td>linux_64_channel_targetsconda-forge_maincross_target_platformlinux-aarch64rust_archaarch64-unknown-linux-gnurust_arch_envAARCH64_UNKNOWN_LINUX_GNUrust_default_ccaarch64-conda-linux-gnu-cctar_hfdf26a0f</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_targetsconda-forge_maincross_target_platformlinux-aarch64rust_archaarch64-unknown-linux-gnurust_arch_envAARCH64_UNKNOWN_LINUX_GNUrust_default_ccaarch64-conda-linux-gnu-cctar_h3db9ca0b" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_targetsconda-forge_maincross_target_platformlinux-aarch64rust_archaarch64-unknown-linux-gnurust_arch_envAARCH64_UNKNOWN_LINUX_GNUrust_default_ccaarch64-conda-linux-gnu-cctar_hfdf26a0f" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_channel_targetsconda-forge_maincross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arch_envPOWERPC64LE_UNKNOWN_LINUX_GNUrust_default_ccpowerpc64le-conda-lin_hef34a860</td>
+              <td>linux_64_channel_targetsconda-forge_maincross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arch_envPOWERPC64LE_UNKNOWN_LINUX_GNUrust_default_ccpowerpc64le-conda-lin_hd51b6056</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_targetsconda-forge_maincross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arch_envPOWERPC64LE_UNKNOWN_LINUX_GNUrust_default_ccpowerpc64le-conda-lin_hef34a860" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_targetsconda-forge_maincross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arch_envPOWERPC64LE_UNKNOWN_LINUX_GNUrust_default_ccpowerpc64le-conda-lin_hd51b6056" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_channel_targetsconda-forge_maincross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_stdlib_v_h2f187cdd</td>
+              <td>linux_64_channel_targetsconda-forge_maincross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_stdlib_v_h760921a3</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_targetsconda-forge_maincross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_stdlib_v_h2f187cdd" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_targetsconda-forge_maincross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_stdlib_v_h760921a3" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_channel_targetsconda-forge_maincross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangtarget_c_stdl_h3c13af8e</td>
+              <td>linux_64_channel_targetsconda-forge_maincross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangtarget_c_stdl_hd4df2ab4</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_targetsconda-forge_maincross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangtarget_c_stdl_h3c13af8e" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_targetsconda-forge_maincross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangtarget_c_stdl_hd4df2ab4" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_channel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version0version1.89.0</td>
+              <td>linux_64_channel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version0version1.90.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version0version1.89.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version0version1.90.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_channel_targetsconda-forge_rust_devcross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_LINUX_GNUrust_default_ccx86_64-conda-linux-gnu-cctarget__hff767699</td>
+              <td>linux_64_channel_targetsconda-forge_rust_devcross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_LINUX_GNUrust_default_ccx86_64-conda-linux-gnu-cctarget__h3d5135ac</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_targetsconda-forge_rust_devcross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_LINUX_GNUrust_default_ccx86_64-conda-linux-gnu-cctarget__hff767699" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_targetsconda-forge_rust_devcross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_LINUX_GNUrust_default_ccx86_64-conda-linux-gnu-cctarget__h3d5135ac" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_channel_targetsconda-forge_rust_devcross_target_platformlinux-aarch64rust_archaarch64-unknown-linux-gnurust_arch_envAARCH64_UNKNOWN_LINUX_GNUrust_default_ccaarch64-conda-linux-gnu-c_h7512f3e8</td>
+              <td>linux_64_channel_targetsconda-forge_rust_devcross_target_platformlinux-aarch64rust_archaarch64-unknown-linux-gnurust_arch_envAARCH64_UNKNOWN_LINUX_GNUrust_default_ccaarch64-conda-linux-gnu-c_hfc599ea7</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_targetsconda-forge_rust_devcross_target_platformlinux-aarch64rust_archaarch64-unknown-linux-gnurust_arch_envAARCH64_UNKNOWN_LINUX_GNUrust_default_ccaarch64-conda-linux-gnu-c_h7512f3e8" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_targetsconda-forge_rust_devcross_target_platformlinux-aarch64rust_archaarch64-unknown-linux-gnurust_arch_envAARCH64_UNKNOWN_LINUX_GNUrust_default_ccaarch64-conda-linux-gnu-c_hfc599ea7" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_channel_targetsconda-forge_rust_devcross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arch_envPOWERPC64LE_UNKNOWN_LINUX_GNUrust_default_ccpowerpc64le-conda_hf9a8ba2f</td>
+              <td>linux_64_channel_targetsconda-forge_rust_devcross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arch_envPOWERPC64LE_UNKNOWN_LINUX_GNUrust_default_ccpowerpc64le-conda_h006848ff</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_targetsconda-forge_rust_devcross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arch_envPOWERPC64LE_UNKNOWN_LINUX_GNUrust_default_ccpowerpc64le-conda_hf9a8ba2f" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_targetsconda-forge_rust_devcross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arch_envPOWERPC64LE_UNKNOWN_LINUX_GNUrust_default_ccpowerpc64le-conda_h006848ff" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_channel_targetsconda-forge_rust_devcross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_stdl_h6afe2284</td>
+              <td>linux_64_channel_targetsconda-forge_rust_devcross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_stdl_h96292f47</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_targetsconda-forge_rust_devcross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_stdl_h6afe2284" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_targetsconda-forge_rust_devcross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_stdl_h96292f47" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_channel_targetsconda-forge_rust_devcross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangtarget_c__h3a8c0425</td>
+              <td>linux_64_channel_targetsconda-forge_rust_devcross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangtarget_c__h065e0064</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_targetsconda-forge_rust_devcross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangtarget_c__h3a8c0425" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_targetsconda-forge_rust_devcross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangtarget_c__h065e0064" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_channel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version0version1.90.0</td>
+              <td>linux_64_channel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version0version1.92.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version0version1.90.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_channel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version0version1.92.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_channel_targetsconda-forge_maincross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_LINUX_GNUrust_default_ccx86_64-conda-linux-gnu-ccversion1.89.0</td>
+              <td>linux_aarch64_channel_targetsconda-forge_maincross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_LINUX_GNUrust_default_ccx86_64-conda-linux-gnu-ccversion1.90.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_targetsconda-forge_maincross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_LINUX_GNUrust_default_ccx86_64-conda-linux-gnu-ccversion1.89.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_targetsconda-forge_maincross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_LINUX_GNUrust_default_ccx86_64-conda-linux-gnu-ccversion1.90.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_channel_targetsconda-forge_maincross_target_platformlinux-aarch64rust_archaarch64-unknown-linux-gnurust_arch_envAARCH64_UNKNOWN_LINUX_GNUrust_default_ccaarch64-conda-linux-gnu-_h7005875d</td>
+              <td>linux_aarch64_channel_targetsconda-forge_maincross_target_platformlinux-aarch64rust_archaarch64-unknown-linux-gnurust_arch_envAARCH64_UNKNOWN_LINUX_GNUrust_default_ccaarch64-conda-linux-gnu-_h2c109ca6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_targetsconda-forge_maincross_target_platformlinux-aarch64rust_archaarch64-unknown-linux-gnurust_arch_envAARCH64_UNKNOWN_LINUX_GNUrust_default_ccaarch64-conda-linux-gnu-_h7005875d" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_targetsconda-forge_maincross_target_platformlinux-aarch64rust_archaarch64-unknown-linux-gnurust_arch_envAARCH64_UNKNOWN_LINUX_GNUrust_default_ccaarch64-conda-linux-gnu-_h2c109ca6" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_channel_targetsconda-forge_maincross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arch_envPOWERPC64LE_UNKNOWN_LINUX_GNUrust_default_ccpowerpc64le-cond_h2ab504d2</td>
+              <td>linux_aarch64_channel_targetsconda-forge_maincross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arch_envPOWERPC64LE_UNKNOWN_LINUX_GNUrust_default_ccpowerpc64le-cond_h39c77503</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_targetsconda-forge_maincross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arch_envPOWERPC64LE_UNKNOWN_LINUX_GNUrust_default_ccpowerpc64le-cond_h2ab504d2" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_targetsconda-forge_maincross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arch_envPOWERPC64LE_UNKNOWN_LINUX_GNUrust_default_ccpowerpc64le-cond_h39c77503" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_channel_targetsconda-forge_rust_devcross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_LINUX_GNUrust_default_ccx86_64-conda-linux-gnu-ccve_hf65950cf</td>
+              <td>linux_aarch64_channel_targetsconda-forge_rust_devcross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_LINUX_GNUrust_default_ccx86_64-conda-linux-gnu-ccve_h9c140a50</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_targetsconda-forge_rust_devcross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_LINUX_GNUrust_default_ccx86_64-conda-linux-gnu-ccve_hf65950cf" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_targetsconda-forge_rust_devcross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_LINUX_GNUrust_default_ccx86_64-conda-linux-gnu-ccve_h9c140a50" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_channel_targetsconda-forge_rust_devcross_target_platformlinux-aarch64rust_archaarch64-unknown-linux-gnurust_arch_envAARCH64_UNKNOWN_LINUX_GNUrust_default_ccaarch64-conda-linux-_hd8ab8782</td>
+              <td>linux_aarch64_channel_targetsconda-forge_rust_devcross_target_platformlinux-aarch64rust_archaarch64-unknown-linux-gnurust_arch_envAARCH64_UNKNOWN_LINUX_GNUrust_default_ccaarch64-conda-linux-_hfcafe7de</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_targetsconda-forge_rust_devcross_target_platformlinux-aarch64rust_archaarch64-unknown-linux-gnurust_arch_envAARCH64_UNKNOWN_LINUX_GNUrust_default_ccaarch64-conda-linux-_hd8ab8782" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_targetsconda-forge_rust_devcross_target_platformlinux-aarch64rust_archaarch64-unknown-linux-gnurust_arch_envAARCH64_UNKNOWN_LINUX_GNUrust_default_ccaarch64-conda-linux-_hfcafe7de" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_channel_targetsconda-forge_rust_devcross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arch_envPOWERPC64LE_UNKNOWN_LINUX_GNUrust_default_ccpowerpc64le-_h670b70d8</td>
+              <td>linux_aarch64_channel_targetsconda-forge_rust_devcross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arch_envPOWERPC64LE_UNKNOWN_LINUX_GNUrust_default_ccpowerpc64le-_h09e8ac1e</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_targetsconda-forge_rust_devcross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arch_envPOWERPC64LE_UNKNOWN_LINUX_GNUrust_default_ccpowerpc64le-_h670b70d8" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_channel_targetsconda-forge_rust_devcross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arch_envPOWERPC64LE_UNKNOWN_LINUX_GNUrust_default_ccpowerpc64le-_h09e8ac1e" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_channel_targetsconda-forge_maincross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_LINUX_GNUrust_default_ccx86_64-conda-linux-gnu-ccversion1.89.0</td>
+              <td>linux_ppc64le_channel_targetsconda-forge_maincross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_LINUX_GNUrust_default_ccx86_64-conda-linux-gnu-ccversion1.90.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_targetsconda-forge_maincross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_LINUX_GNUrust_default_ccx86_64-conda-linux-gnu-ccversion1.89.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_targetsconda-forge_maincross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_LINUX_GNUrust_default_ccx86_64-conda-linux-gnu-ccversion1.90.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_channel_targetsconda-forge_maincross_target_platformlinux-aarch64rust_archaarch64-unknown-linux-gnurust_arch_envAARCH64_UNKNOWN_LINUX_GNUrust_default_ccaarch64-conda-linux-gnu-_h706fa592</td>
+              <td>linux_ppc64le_channel_targetsconda-forge_maincross_target_platformlinux-aarch64rust_archaarch64-unknown-linux-gnurust_arch_envAARCH64_UNKNOWN_LINUX_GNUrust_default_ccaarch64-conda-linux-gnu-_h917d5370</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_targetsconda-forge_maincross_target_platformlinux-aarch64rust_archaarch64-unknown-linux-gnurust_arch_envAARCH64_UNKNOWN_LINUX_GNUrust_default_ccaarch64-conda-linux-gnu-_h706fa592" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_targetsconda-forge_maincross_target_platformlinux-aarch64rust_archaarch64-unknown-linux-gnurust_arch_envAARCH64_UNKNOWN_LINUX_GNUrust_default_ccaarch64-conda-linux-gnu-_h917d5370" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_channel_targetsconda-forge_maincross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arch_envPOWERPC64LE_UNKNOWN_LINUX_GNUrust_default_ccpowerpc64le-cond_h496857ef</td>
+              <td>linux_ppc64le_channel_targetsconda-forge_maincross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arch_envPOWERPC64LE_UNKNOWN_LINUX_GNUrust_default_ccpowerpc64le-cond_h773cab21</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_targetsconda-forge_maincross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arch_envPOWERPC64LE_UNKNOWN_LINUX_GNUrust_default_ccpowerpc64le-cond_h496857ef" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_targetsconda-forge_maincross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arch_envPOWERPC64LE_UNKNOWN_LINUX_GNUrust_default_ccpowerpc64le-cond_h773cab21" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_channel_targetsconda-forge_rust_devcross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_LINUX_GNUrust_default_ccx86_64-conda-linux-gnu-ccve_h53feeb83</td>
+              <td>linux_ppc64le_channel_targetsconda-forge_rust_devcross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_LINUX_GNUrust_default_ccx86_64-conda-linux-gnu-ccve_h1a3cf011</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_targetsconda-forge_rust_devcross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_LINUX_GNUrust_default_ccx86_64-conda-linux-gnu-ccve_h53feeb83" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_targetsconda-forge_rust_devcross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_LINUX_GNUrust_default_ccx86_64-conda-linux-gnu-ccve_h1a3cf011" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_channel_targetsconda-forge_rust_devcross_target_platformlinux-aarch64rust_archaarch64-unknown-linux-gnurust_arch_envAARCH64_UNKNOWN_LINUX_GNUrust_default_ccaarch64-conda-linux-_h6b4d69ff</td>
+              <td>linux_ppc64le_channel_targetsconda-forge_rust_devcross_target_platformlinux-aarch64rust_archaarch64-unknown-linux-gnurust_arch_envAARCH64_UNKNOWN_LINUX_GNUrust_default_ccaarch64-conda-linux-_he321e0f3</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_targetsconda-forge_rust_devcross_target_platformlinux-aarch64rust_archaarch64-unknown-linux-gnurust_arch_envAARCH64_UNKNOWN_LINUX_GNUrust_default_ccaarch64-conda-linux-_h6b4d69ff" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_targetsconda-forge_rust_devcross_target_platformlinux-aarch64rust_archaarch64-unknown-linux-gnurust_arch_envAARCH64_UNKNOWN_LINUX_GNUrust_default_ccaarch64-conda-linux-_he321e0f3" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_channel_targetsconda-forge_rust_devcross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arch_envPOWERPC64LE_UNKNOWN_LINUX_GNUrust_default_ccpowerpc64le-_h42fb6e96</td>
+              <td>linux_ppc64le_channel_targetsconda-forge_rust_devcross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arch_envPOWERPC64LE_UNKNOWN_LINUX_GNUrust_default_ccpowerpc64le-_h7907a622</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_targetsconda-forge_rust_devcross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arch_envPOWERPC64LE_UNKNOWN_LINUX_GNUrust_default_ccpowerpc64le-_h42fb6e96" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_channel_targetsconda-forge_rust_devcross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arch_envPOWERPC64LE_UNKNOWN_LINUX_GNUrust_default_ccpowerpc64le-_h7907a622" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_channel_targetsconda-forge_maincross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_stdlib_ver_h55176701</td>
+              <td>osx_64_channel_targetsconda-forge_maincross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_stdlib_ver_h944fb064</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_targetsconda-forge_maincross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_stdlib_ver_h55176701" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_targetsconda-forge_maincross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_stdlib_ver_h944fb064" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_channel_targetsconda-forge_maincross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangtarget_c_stdlib_h7e320b25</td>
+              <td>osx_64_channel_targetsconda-forge_maincross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangtarget_c_stdlib_hbfea5e5d</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_targetsconda-forge_maincross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangtarget_c_stdlib_h7e320b25" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_targetsconda-forge_maincross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangtarget_c_stdlib_hbfea5e5d" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_channel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version10.13version1.89.0</td>
+              <td>osx_64_channel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version10.13version1.90.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version10.13version1.89.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version10.13version1.90.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_channel_targetsconda-forge_rust_devcross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_stdlib_h844a4f33</td>
+              <td>osx_64_channel_targetsconda-forge_rust_devcross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_stdlib_h53edb3b6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_targetsconda-forge_rust_devcross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_stdlib_h844a4f33" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_targetsconda-forge_rust_devcross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_stdlib_h53edb3b6" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_channel_targetsconda-forge_rust_devcross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangtarget_c_st_h02b9b96c</td>
+              <td>osx_64_channel_targetsconda-forge_rust_devcross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangtarget_c_st_hb1c49925</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_targetsconda-forge_rust_devcross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangtarget_c_st_h02b9b96c" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_targetsconda-forge_rust_devcross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangtarget_c_st_hb1c49925" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_channel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version10.13version1.90.0</td>
+              <td>osx_64_channel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version10.13version1.92.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version10.13version1.90.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version10.13version1.92.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_channel_targetsconda-forge_maincross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_stdlib__h5978d7b1</td>
+              <td>osx_arm64_channel_targetsconda-forge_maincross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_stdlib__h7a719b52</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_targetsconda-forge_maincross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_stdlib__h5978d7b1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_targetsconda-forge_maincross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_stdlib__h7a719b52" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_channel_targetsconda-forge_maincross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangtarget_c_std_h5acf7c54</td>
+              <td>osx_arm64_channel_targetsconda-forge_maincross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangtarget_c_std_hb467f4b3</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_targetsconda-forge_maincross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangtarget_c_std_h5acf7c54" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_targetsconda-forge_maincross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangtarget_c_std_hb467f4b3" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_channel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version11.0version1.89.0</td>
+              <td>osx_arm64_channel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version11.0version1.90.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version11.0version1.89.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version11.0version1.90.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_channel_targetsconda-forge_rust_devcross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_std_he1f7f8c1</td>
+              <td>osx_arm64_channel_targetsconda-forge_rust_devcross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_std_h8e48881f</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_targetsconda-forge_rust_devcross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_std_he1f7f8c1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_targetsconda-forge_rust_devcross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darwin13.4.0-clangtarget_c_std_h8e48881f" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_channel_targetsconda-forge_rust_devcross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangtarget_c_hee6d5f7c</td>
+              <td>osx_arm64_channel_targetsconda-forge_rust_devcross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangtarget_c_hceee7f9f</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_targetsconda-forge_rust_devcross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangtarget_c_hee6d5f7c" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_targetsconda-forge_rust_devcross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-darwin20.0.0-clangtarget_c_hceee7f9f" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_channel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version11.0ve_h98638a3f</td>
+              <td>osx_arm64_channel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version11.0ve_h5eb39795</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version11.0ve_h98638a3f" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cltarget_c_stdlib_version11.0ve_h5eb39795" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_channel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCversion1.89.0</td>
+              <td>win_64_channel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCversion1.90.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=win&configuration=win%20win_64_channel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCversion1.89.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=win&configuration=win%20win_64_channel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCversion1.90.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_channel_targetsconda-forge_maincross_target_platformwin-arm64rust_archaarch64-pc-windows-msvcrust_arch_envAARCH64_PC_WINDOWS_MSVCversion1.89.0</td>
+              <td>win_64_channel_targetsconda-forge_maincross_target_platformwin-arm64rust_archaarch64-pc-windows-msvcrust_arch_envAARCH64_PC_WINDOWS_MSVCversion1.90.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=win&configuration=win%20win_64_channel_targetsconda-forge_maincross_target_platformwin-arm64rust_archaarch64-pc-windows-msvcrust_arch_envAARCH64_PC_WINDOWS_MSVCversion1.89.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=win&configuration=win%20win_64_channel_targetsconda-forge_maincross_target_platformwin-arm64rust_archaarch64-pc-windows-msvcrust_arch_envAARCH64_PC_WINDOWS_MSVCversion1.90.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_channel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCversion1.90.0</td>
+              <td>win_64_channel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCversion1.92.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=win&configuration=win%20win_64_channel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCversion1.90.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=win&configuration=win%20win_64_channel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCversion1.92.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_channel_targetsconda-forge_rust_devcross_target_platformwin-arm64rust_archaarch64-pc-windows-msvcrust_arch_envAARCH64_PC_WINDOWS_MSVCversion1.90.0</td>
+              <td>win_64_channel_targetsconda-forge_rust_devcross_target_platformwin-arm64rust_archaarch64-pc-windows-msvcrust_arch_envAARCH64_PC_WINDOWS_MSVCversion1.92.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=win&configuration=win%20win_64_channel_targetsconda-forge_rust_devcross_target_platformwin-arm64rust_archaarch64-pc-windows-msvcrust_arch_envAARCH64_PC_WINDOWS_MSVCversion1.90.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=win&configuration=win%20win_64_channel_targetsconda-forge_rust_devcross_target_platformwin-arm64rust_archaarch64-pc-windows-msvcrust_arch_envAARCH64_PC_WINDOWS_MSVCversion1.92.0" alt="variant">
                 </a>
               </td>
             </tr>
