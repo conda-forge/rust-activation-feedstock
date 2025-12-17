@@ -314,6 +314,20 @@ Current build status
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=win&configuration=win%20win_64_channel_targetsconda-forge_rust_devcross_target_platformwin-arm64rust_archaarch64-pc-windows-msvcrust_arch_envAARCH64_PC_WINDOWS_MSVCversion1.94.0" alt="variant">
                 </a>
               </td>
+            </tr><tr>
+              <td>win_arm64_channel_targetsconda-forge_mainversion1.92.0</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=win&configuration=win%20win_arm64_channel_targetsconda-forge_mainversion1.92.0" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_arm64_channel_targetsconda-forge_rust_devversion1.94.0</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=win&configuration=win%20win_arm64_channel_targetsconda-forge_rust_devversion1.94.0" alt="variant">
+                </a>
+              </td>
             </tr>
           </tbody>
         </table>
@@ -338,14 +352,14 @@ Current release info
 Installing rust-activation
 ==========================
 
-Installing `rust-activation` from the `conda-forge/label/rust_dev` channel can be achieved by adding `conda-forge/label/rust_dev` to your channels with:
+Installing `rust-activation` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
-conda config --add channels conda-forge/label/rust_dev
+conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge/label/rust_dev` channel has been enabled, `rust_linux-64, rust_linux-aarch64, rust_linux-ppc64le, rust_osx-64, rust_osx-arm64, rust_win-64, rust_win-arm64` can be installed with `conda`:
+Once the `conda-forge` channel has been enabled, `rust_linux-64, rust_linux-aarch64, rust_linux-ppc64le, rust_osx-64, rust_osx-arm64, rust_win-64, rust_win-arm64` can be installed with `conda`:
 
 ```
 conda install rust_linux-64 rust_linux-aarch64 rust_linux-ppc64le rust_osx-64 rust_osx-arm64 rust_win-64 rust_win-arm64
@@ -360,26 +374,26 @@ mamba install rust_linux-64 rust_linux-aarch64 rust_linux-ppc64le rust_osx-64 ru
 It is possible to list all of the versions of `rust_linux-64` available on your platform with `conda`:
 
 ```
-conda search rust_linux-64 --channel conda-forge/label/rust_dev
+conda search rust_linux-64 --channel conda-forge
 ```
 
 or with `mamba`:
 
 ```
-mamba search rust_linux-64 --channel conda-forge/label/rust_dev
+mamba search rust_linux-64 --channel conda-forge
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search rust_linux-64 --channel conda-forge/label/rust_dev
+mamba repoquery search rust_linux-64 --channel conda-forge
 
 # List packages depending on `rust_linux-64`:
-mamba repoquery whoneeds rust_linux-64 --channel conda-forge/label/rust_dev
+mamba repoquery whoneeds rust_linux-64 --channel conda-forge
 
 # List dependencies of `rust_linux-64`:
-mamba repoquery depends rust_linux-64 --channel conda-forge/label/rust_dev
+mamba repoquery depends rust_linux-64 --channel conda-forge
 ```
 
 
