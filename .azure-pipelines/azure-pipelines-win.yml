@@ -20,11 +20,17 @@ jobs:
       ? win_64_channel_targetsconda-forge_rust_devcross_target_platformwin-arm64rust_archaarch64-pc-windows-msvcrust_arch_envAARCH64_PC_WINDOWS_MSVCversion1.94.0
       : CONFIG: win_64_channel_targetsconda-forge_rust_devcross_target_platformwin-arm64rust_archaarch64-pc-windows-msvcrust_arch_envAARCH64_PC_WINDOWS_MSVCversion1.94.0
         UPLOAD_PACKAGES: 'True'
-      win_arm64_channel_targetsconda-forge_mainversion1.92.0:
-        CONFIG: win_arm64_channel_targetsconda-forge_mainversion1.92.0
+      ? win_arm64_channel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCversion1.92.0
+      : CONFIG: win_arm64_channel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCversion1.92.0
         UPLOAD_PACKAGES: 'True'
-      win_arm64_channel_targetsconda-forge_rust_devversion1.94.0:
-        CONFIG: win_arm64_channel_targetsconda-forge_rust_devversion1.94.0
+      ? win_arm64_channel_targetsconda-forge_maincross_target_platformwin-arm64rust_archaarch64-pc-windows-msvcrust_arch_envAARCH64_PC_WINDOWS_MSVCversion1.92.0
+      : CONFIG: win_arm64_channel_targetsconda-forge_maincross_target_platformwin-arm64rust_archaarch64-pc-windows-msvcrust_arch_envAARCH64_PC_WINDOWS_MSVCversion1.92.0
+        UPLOAD_PACKAGES: 'True'
+      ? win_arm64_channel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCversion1.94.0
+      : CONFIG: win_arm64_channel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCversion1.94.0
+        UPLOAD_PACKAGES: 'True'
+      ? win_arm64_channel_targetsconda-forge_rust_devcross_target_platformwin-arm64rust_archaarch64-pc-windows-msvcrust_arch_envAARCH64_PC_WINDOWS_MSVCversion1.94.0
+      : CONFIG: win_arm64_channel_targetsconda-forge_rust_devcross_target_platformwin-arm64rust_archaarch64-pc-windows-msvcrust_arch_envAARCH64_PC_WINDOWS_MSVCversion1.94.0
         UPLOAD_PACKAGES: 'True'
   timeoutInMinutes: 360
   variables:
