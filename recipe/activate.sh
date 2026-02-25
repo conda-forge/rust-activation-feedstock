@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-export CARGO_HOME=${CONDA_PREFIX}/.cargo
-export CARGO_CONFIG=${CARGO_HOME}/config
-export RUSTUP_HOME=${CARGO_HOME}/rustup
+export CARGO_HOME=${CARGO_HOME:-${CONDA_PREFIX}/.cargo}
+export CARGO_CONFIG=${CARGO_CONFIG:-${CARGO_HOME}/config}
+export RUSTUP_HOME=${RUSTUP_HOME:-${CARGO_HOME}/rustup}
 
 [[ -d ${CARGO_HOME} ]] || mkdir -p ${CARGO_HOME}
 

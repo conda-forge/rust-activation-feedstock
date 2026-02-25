@@ -1,6 +1,6 @@
-set CARGO_HOME=%CONDA_PREFIX%\.cargo
-set CARGO_CONFIG=%CARGO_HOME%\config
-set RUSTUP_HOME=%CARGO_HOME%\rustup
+if not defined CARGO_HOME set CARGO_HOME=%CONDA_PREFIX%\.cargo
+if not defined CARGO_CONFIG set CARGO_CONFIG=%CARGO_HOME%\config
+if not defined RUSTUP_HOME set RUSTUP_HOME=%CARGO_HOME%\rustup
 set PATH=%CARGO_HOME%\bin;%PATH%
 
 if not exist "%CARGO_HOME%" mkdir "%CARGO_HOME%"
