@@ -22,6 +22,10 @@ export CPPFLAGS_@CONDA_RUST_TARGET_LOWER@="${CPPFLAGS}"
 export CXXFLAGS_@CONDA_RUST_HOST_LOWER@="-isystem ${CONDA_PREFIX}/include"
 export CXXFLAGS_@CONDA_RUST_TARGET_LOWER@="${CXXFLAGS}"
 
+export CARGO="${CONDA_PREFIX}/bin/cargo"
+export RUSTC="${CONDA_PREFIX}/bin/rustc"
+export RUSTDOC="${CONDA_PREFIX}/bin/rustdoc"
+
 if [[ "@cross_target_platform@" == linux*  ]]; then
   export CARGO_BUILD_RUSTFLAGS="-C link-arg=-Wl,-rpath-link,${PREFIX:-${CONDA_PREFIX}}/lib -C link-arg=-Wl,-rpath,${PREFIX:-${CONDA_PREFIX}}/lib"
 elif [[ "@cross_target_platform@" == win* ]]; then
@@ -45,8 +49,6 @@ elif [[ "@cross_target_platform@" == osx* ]]; then
     export CARGO_BUILD_RUSTFLAGS="$CARGO_BUILD_RUSTFLAGS -C link-arg=-Wl,-headerpad_max_install_names -C link-arg=-Wl,-dead_strip_dylibs"
   fi
 fi
-
-export PATH=${CARGO_HOME}/bin:${PATH}
 
 # cross compiling for unix platforms
 if [[ "@cross_target_platform@" == osx* || "@cross_target_platform@" == linux* ]]; then
