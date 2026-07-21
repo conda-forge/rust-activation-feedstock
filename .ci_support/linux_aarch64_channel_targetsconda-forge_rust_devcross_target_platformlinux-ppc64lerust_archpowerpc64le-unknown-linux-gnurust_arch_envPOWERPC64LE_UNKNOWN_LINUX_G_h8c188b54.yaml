@@ -7,7 +7,7 @@ channel_targets:
 cross_target_platform:
 - linux-ppc64le
 docker_image:
-- quay.io/condaforge/linux-anvil-x86_64:alma9
+- quay.io/condaforge/linux-anvil-x86_64:alma10
 rust_arch:
 - powerpc64le-unknown-linux-gnu
 rust_arch_env:
