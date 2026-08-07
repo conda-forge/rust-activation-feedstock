@@ -83,34 +83,6 @@ Current build status
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-clversion1.99.0" alt="variant">
                 </a>
               </td>
-            </tr><tr>
-              <td>win_64_channel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCversion1.97.1</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=win&configuration=win%20win_64_channel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCversion1.97.1" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_channel_targetsconda-forge_maincross_target_platformwin-arm64rust_archaarch64-pc-windows-msvcrust_arch_envAARCH64_PC_WINDOWS_MSVCversion1.97.1</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=win&configuration=win%20win_64_channel_targetsconda-forge_maincross_target_platformwin-arm64rust_archaarch64-pc-windows-msvcrust_arch_envAARCH64_PC_WINDOWS_MSVCversion1.97.1" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_channel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCversion1.99.0</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=win&configuration=win%20win_64_channel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCversion1.99.0" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_channel_targetsconda-forge_rust_devcross_target_platformwin-arm64rust_archaarch64-pc-windows-msvcrust_arch_envAARCH64_PC_WINDOWS_MSVCversion1.99.0</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=win&configuration=win%20win_64_channel_targetsconda-forge_rust_devcross_target_platformwin-arm64rust_archaarch64-pc-windows-msvcrust_arch_envAARCH64_PC_WINDOWS_MSVCversion1.99.0" alt="variant">
-                </a>
-              </td>
             </tr>
           </tbody>
         </table>
@@ -127,6 +99,7 @@ Current release info
 | [![Conda Recipe](https://img.shields.io/badge/recipe-rust__linux--64-green.svg)](https://anaconda.org/conda-forge/rust_linux-64) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/rust_linux-64.svg)](https://anaconda.org/conda-forge/rust_linux-64) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/rust_linux-64.svg)](https://anaconda.org/conda-forge/rust_linux-64) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/rust_linux-64.svg)](https://anaconda.org/conda-forge/rust_linux-64) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-rust__linux--aarch64-green.svg)](https://anaconda.org/conda-forge/rust_linux-aarch64) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/rust_linux-aarch64.svg)](https://anaconda.org/conda-forge/rust_linux-aarch64) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/rust_linux-aarch64.svg)](https://anaconda.org/conda-forge/rust_linux-aarch64) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/rust_linux-aarch64.svg)](https://anaconda.org/conda-forge/rust_linux-aarch64) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-rust__linux--ppc64le-green.svg)](https://anaconda.org/conda-forge/rust_linux-ppc64le) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/rust_linux-ppc64le.svg)](https://anaconda.org/conda-forge/rust_linux-ppc64le) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/rust_linux-ppc64le.svg)](https://anaconda.org/conda-forge/rust_linux-ppc64le) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/rust_linux-ppc64le.svg)](https://anaconda.org/conda-forge/rust_linux-ppc64le) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-rust__linux--riscv64-green.svg)](https://anaconda.org/conda-forge/rust_linux-riscv64) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/rust_linux-riscv64.svg)](https://anaconda.org/conda-forge/rust_linux-riscv64) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/rust_linux-riscv64.svg)](https://anaconda.org/conda-forge/rust_linux-riscv64) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/rust_linux-riscv64.svg)](https://anaconda.org/conda-forge/rust_linux-riscv64) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-rust__osx--64-green.svg)](https://anaconda.org/conda-forge/rust_osx-64) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/rust_osx-64.svg)](https://anaconda.org/conda-forge/rust_osx-64) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/rust_osx-64.svg)](https://anaconda.org/conda-forge/rust_osx-64) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/rust_osx-64.svg)](https://anaconda.org/conda-forge/rust_osx-64) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-rust__osx--arm64-green.svg)](https://anaconda.org/conda-forge/rust_osx-arm64) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/rust_osx-arm64.svg)](https://anaconda.org/conda-forge/rust_osx-arm64) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/rust_osx-arm64.svg)](https://anaconda.org/conda-forge/rust_osx-arm64) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/rust_osx-arm64.svg)](https://anaconda.org/conda-forge/rust_osx-arm64) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-rust__win--64-green.svg)](https://anaconda.org/conda-forge/rust_win-64) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/rust_win-64.svg)](https://anaconda.org/conda-forge/rust_win-64) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/rust_win-64.svg)](https://anaconda.org/conda-forge/rust_win-64) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/rust_win-64.svg)](https://anaconda.org/conda-forge/rust_win-64) |
@@ -142,31 +115,73 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `rust_linux-64, rust_linux-aarch64, rust_linux-ppc64le, rust_osx-64, rust_osx-arm64, rust_win-64, rust_win-arm64` can be installed with `conda`:
+How to use
+----------
+
+<details>
+<summary>With conda</summary>
 
 ```
-conda install rust_linux-64 rust_linux-aarch64 rust_linux-ppc64le rust_osx-64 rust_osx-arm64 rust_win-64 rust_win-arm64
+conda install rust_linux-64 rust_linux-aarch64 rust_linux-ppc64le rust_linux-riscv64 rust_osx-64 rust_osx-arm64 rust_win-64 rust_win-arm64
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
-mamba install rust_linux-64 rust_linux-aarch64 rust_linux-ppc64le rust_osx-64 rust_osx-arm64 rust_win-64 rust_win-arm64
+mamba install rust_linux-64 rust_linux-aarch64 rust_linux-ppc64le rust_linux-riscv64 rust_osx-64 rust_osx-arm64 rust_win-64 rust_win-arm64
 ```
 
-It is possible to list all of the versions of `rust_linux-64` available on your platform with `conda`:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+# for adding to your local project
+pixi add rust_linux-64 rust_linux-aarch64 rust_linux-ppc64le rust_linux-riscv64 rust_osx-64 rust_osx-arm64 rust_win-64 rust_win-arm64
+# for installing globally
+pixi global install rust_linux-64 rust_linux-aarch64 rust_linux-ppc64le rust_linux-riscv64 rust_osx-64 rust_osx-arm64 rust_win-64 rust_win-arm64
+```
+
+</details>
+
+Search package versions
+-----------------------
+
+It is possible to list all of the versions of `rust_linux-64` available on your platform:
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda search rust_linux-64 --channel conda-forge
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba search rust_linux-64 --channel conda-forge
 ```
 
-Alternatively, `mamba repoquery` may provide more information:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+pixi search rust_linux-64 --channel conda-forge
+```
+
+</details>
+
+<details>
+<summary>With mamba repoquery, which may provide more information</summary>
 
 ```
 # Search all versions available on your platform:
@@ -178,6 +193,8 @@ mamba repoquery whoneeds rust_linux-64 --channel conda-forge
 # List dependencies of `rust_linux-64`:
 mamba repoquery depends rust_linux-64 --channel conda-forge
 ```
+
+</details>
 
 
 About conda-forge
@@ -248,4 +265,3 @@ Feedstock Maintainers
 
 * [@isuruf](https://github.com/isuruf/)
 * [@xhochy](https://github.com/xhochy/)
-
