@@ -108,10 +108,10 @@ Current release info
 Installing rust-activation
 ==========================
 
-Installing `rust-activation` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `rust-activation` from the `conda-forge/label/rust_dev` channel can be achieved by adding `conda-forge/label/rust_dev` to your channels with:
 
 ```
-conda config --add channels conda-forge
+conda config --add channels conda-forge/label/rust_dev
 conda config --set channel_priority strict
 ```
 
@@ -157,7 +157,7 @@ It is possible to list all of the versions of `rust_linux-64` available on your 
 <summary>With conda</summary>
 
 ```
-conda search rust_linux-64 --channel conda-forge
+conda search rust_linux-64 --channel conda-forge/label/rust_dev
 ```
 
 </details>
@@ -166,7 +166,7 @@ conda search rust_linux-64 --channel conda-forge
 <summary>With mamba</summary>
 
 ```
-mamba search rust_linux-64 --channel conda-forge
+mamba search rust_linux-64 --channel conda-forge/label/rust_dev
 ```
 
 </details>
@@ -175,7 +175,7 @@ mamba search rust_linux-64 --channel conda-forge
 <summary>With pixi</summary>
 
 ```
-pixi search rust_linux-64 --channel conda-forge
+pixi search rust_linux-64 --channel conda-forge/label/rust_dev
 ```
 
 </details>
@@ -185,13 +185,13 @@ pixi search rust_linux-64 --channel conda-forge
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search rust_linux-64 --channel conda-forge
+mamba repoquery search rust_linux-64 --channel conda-forge/label/rust_dev
 
 # List packages depending on `rust_linux-64`:
-mamba repoquery whoneeds rust_linux-64 --channel conda-forge
+mamba repoquery whoneeds rust_linux-64 --channel conda-forge/label/rust_dev
 
 # List dependencies of `rust_linux-64`:
-mamba repoquery depends rust_linux-64 --channel conda-forge
+mamba repoquery depends rust_linux-64 --channel conda-forge/label/rust_dev
 ```
 
 </details>
