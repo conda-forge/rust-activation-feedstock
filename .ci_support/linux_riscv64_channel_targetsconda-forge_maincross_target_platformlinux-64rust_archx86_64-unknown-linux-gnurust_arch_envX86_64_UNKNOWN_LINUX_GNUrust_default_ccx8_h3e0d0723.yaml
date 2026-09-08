@@ -19,7 +19,7 @@ target_c_stdlib_version:
 target_platform:
 - linux-riscv64
 version:
-- 1.97.1
+- 1.98.1
 zip_keys:
 - - cross_target_platform
   - rust_arch
