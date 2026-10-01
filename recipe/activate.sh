@@ -30,6 +30,14 @@ export CARGO_INSTALL_ROOT="${CARGO_INSTALL_ROOT:-${CONDA_PREFIX}}"
 
 if [[ "@cross_target_platform@" == linux*  ]]; then
   export CARGO_BUILD_RUSTFLAGS="-C link-arg=-Wl,-rpath-link,${PREFIX:-${CONDA_PREFIX}}/lib -C link-arg=-Wl,-rpath,${PREFIX:-${CONDA_PREFIX}}/lib"
+  if [[ "@cross_target_platform@" == "linux-ppc64le" ]]; then
+    # rustc links powerpc64le-unknown-linux-gnu through its bundled rust-lld by
+    # default, which cannot handle the inline-PLT relocations (R_PPC64_PLTSEQ,
+    # R_PPC64_PLTCALL, ...) that gcc emits into the objects of C-based crates.
+    # gcc honours the last -fuse-ld, so this selects GNU ld from binutils instead.
+    # The stable opt-out `-C linker-features=-lld` is not available on this target.
+    export CARGO_BUILD_RUSTFLAGS="${CARGO_BUILD_RUSTFLAGS} -C link-arg=-fuse-ld=bfd"
+  fi
 elif [[ "@cross_target_platform@" == win* ]]; then
   export CARGO_INSTALL_ROOT="${CONDA_PREFIX}/Library"
   export CARGO_TARGET_@rust_arch_env@_LINKER="${CONDA_PREFIX}/bin/lld-link"
