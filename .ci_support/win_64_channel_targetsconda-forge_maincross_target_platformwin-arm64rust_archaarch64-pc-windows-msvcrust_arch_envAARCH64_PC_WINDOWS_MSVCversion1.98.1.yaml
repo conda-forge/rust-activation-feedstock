@@ -5,25 +5,25 @@ channel_sources:
 channel_targets:
 - conda-forge main
 cross_target_platform:
-- linux-ppc64le
-docker_image:
-- quay.io/condaforge/linux-anvil-x86_64:alma10
+- win-arm64
 rust_arch:
-- powerpc64le-unknown-linux-gnu
+- aarch64-pc-windows-msvc
 rust_arch_env:
-- POWERPC64LE_UNKNOWN_LINUX_GNU
+- AARCH64_PC_WINDOWS_MSVC
 rust_arch_env_build:
-- POWERPC64LE_UNKNOWN_LINUX_GNU
+- X86_64_PC_WINDOWS_MSVC
 rust_default_cc:
-- powerpc64le-conda-linux-gnu-cc
+- clang-cl
 rust_default_cc_build:
-- powerpc64le-conda-linux-gnu-cc
+- clang-cl
 target_c_stdlib_version:
-- '2.17'
+- '0'
 target_platform:
-- linux-ppc64le
+- win-64
+vc:
+- '14'
 version:
-- 1.97.1
+- 1.98.1
 zip_keys:
 - - cross_target_platform
   - rust_arch
