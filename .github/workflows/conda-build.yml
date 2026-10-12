@@ -22,7 +22,7 @@ jobs:
       max-parallel: 50
       matrix:
         include:
-          - CONFIG: linux_64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_LINUX_GNUrust_default_c_h51e212a7
+          - CONFIG: linux_64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_L_h51e212a7
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -34,7 +34,7 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformlinux-aarch64rust_archaarch64-unknown-linux-gnurust_arch_envAARCH64_UNKNOWN_LINUX_GNUrust_de_h38368819
+          - CONFIG: linux_64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformlinux-aarch64rust_archaarch64-unknown-linux-gnurust_arch_envAARCH64_UN_h38368819
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -46,7 +46,7 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arch_envPOWERPC64LE_UNKNOWN_LINUX_GN_hd19e4474
+          - CONFIG: linux_64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arch_envPOWERP_hd19e4474
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -58,7 +58,7 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformlinux-riscv64rust_archriscv64gc-unknown-linux-gnurust_arch_envRISCV64GC_UNKNOWN_LINUX_GNUrus_h83678a7e
+          - CONFIG: linux_64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformlinux-riscv64rust_archriscv64gc-unknown-linux-gnurust_arch_envRISCV64G_h83678a7e
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -70,7 +70,7 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-appl_heed3e376
+          - CONFIG: linux_64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_heed3e376
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -82,7 +82,7 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-_h15508fa9
+          - CONFIG: linux_64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWI_h15508fa9
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -94,7 +94,7 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang_hde8a7355
+          - CONFIG: linux_64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MS_hde8a7355
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -106,7 +106,7 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNK_he30c7d75
+          - CONFIG: linux_64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformlinux-64rust_archx86_64-unknown-linux-gnur_he30c7d75
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -118,7 +118,7 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformlinux-aarch64rust_archaarch64-unknown-linux-gnurust_arch_envAARC_hc8599b15
+          - CONFIG: linux_64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformlinux-aarch64rust_archaarch64-unknown-linu_hc8599b15
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -130,7 +130,7 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arch_env_he0bb9437
+          - CONFIG: linux_64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-_he0bb9437
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -142,7 +142,7 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformlinux-riscv64rust_archriscv64gc-unknown-linux-gnurust_arch_envRI_hfaeab98e
+          - CONFIG: linux_64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformlinux-riscv64rust_archriscv64gc-unknown-li_hfaeab98e
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -154,7 +154,7 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARW_he9be42ef
+          - CONFIG: linux_64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformosx-64rust_archx86_64-apple-darwinrust_arc_he9be42ef
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -166,7 +166,7 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_hf3c25779
+          - CONFIG: linux_64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_hf3c25779
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -178,7 +178,7 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WIND_h6c2d2835
+          - CONFIG: linux_64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust__h6c2d2835
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -190,7 +190,7 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_LINUX_GNUrust_defa_hae29a446
+          - CONFIG: linux_aarch64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKN_hae29a446
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -202,7 +202,7 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-24.04-arm']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformlinux-aarch64rust_archaarch64-unknown-linux-gnurust_arch_envAARCH64_UNKNOWN_LINUX_GNUru_hb1b7b659
+          - CONFIG: linux_aarch64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformlinux-aarch64rust_archaarch64-unknown-linux-gnurust_arch_envAARCH_hb1b7b659
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -214,7 +214,7 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-24.04-arm']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arch_envPOWERPC64LE_UNKNOWN_LIN_h73e93d5d
+          - CONFIG: linux_aarch64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arch_envP_h73e93d5d
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -226,7 +226,7 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-24.04-arm']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformlinux-riscv64rust_archriscv64gc-unknown-linux-gnurust_arch_envRISCV64GC_UNKNOWN_LINUX_G_h4ea131a0
+          - CONFIG: linux_aarch64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformlinux-riscv64rust_archriscv64gc-unknown-linux-gnurust_arch_envRIS_h4ea131a0
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -238,7 +238,7 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-24.04-arm']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_6_h8887d2f1
+          - CONFIG: linux_aarch64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformlinux-64rust_archx86_64-unknown-linux_h8887d2f1
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -250,7 +250,7 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-24.04-arm']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformlinux-aarch64rust_archaarch64-unknown-linux-gnurust_arch_en_h3ffb399a
+          - CONFIG: linux_aarch64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformlinux-aarch64rust_archaarch64-unknown_h3ffb399a
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -262,7 +262,7 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-24.04-arm']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arc_h53138d23
+          - CONFIG: linux_aarch64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformlinux-ppc64lerust_archpowerpc64le-unk_h53138d23
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -274,7 +274,7 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-24.04-arm']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformlinux-riscv64rust_archriscv64gc-unknown-linux-gnurust_arch__h809b10a4
+          - CONFIG: linux_aarch64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformlinux-riscv64rust_archriscv64gc-unkno_h809b10a4
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -286,7 +286,7 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-24.04-arm']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_ppc64le_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_LINUX_GNUrust_defa_h97c4080d
+          - CONFIG: linux_ppc64le_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKN_h97c4080d
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -298,7 +298,7 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_ppc64le_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformlinux-aarch64rust_archaarch64-unknown-linux-gnurust_arch_envAARCH64_UNKNOWN_LINUX_GNUru_hb2586d88
+          - CONFIG: linux_ppc64le_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformlinux-aarch64rust_archaarch64-unknown-linux-gnurust_arch_envAARCH_hb2586d88
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -310,7 +310,7 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_ppc64le_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arch_envPOWERPC64LE_UNKNOWN_LIN_hb67ab3e2
+          - CONFIG: linux_ppc64le_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arch_envP_hb67ab3e2
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -322,7 +322,7 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_ppc64le_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformlinux-riscv64rust_archriscv64gc-unknown-linux-gnurust_arch_envRISCV64GC_UNKNOWN_LINUX_G_h0ce7ab88
+          - CONFIG: linux_ppc64le_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformlinux-riscv64rust_archriscv64gc-unknown-linux-gnurust_arch_envRIS_h0ce7ab88
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -334,7 +334,7 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_ppc64le_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_6_h2a75ba8d
+          - CONFIG: linux_ppc64le_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformlinux-64rust_archx86_64-unknown-linux_h2a75ba8d
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -346,7 +346,7 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_ppc64le_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformlinux-aarch64rust_archaarch64-unknown-linux-gnurust_arch_en_h4b309b29
+          - CONFIG: linux_ppc64le_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformlinux-aarch64rust_archaarch64-unknown_h4b309b29
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -358,7 +358,7 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_ppc64le_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arc_he54f1c3c
+          - CONFIG: linux_ppc64le_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformlinux-ppc64lerust_archpowerpc64le-unk_he54f1c3c
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -370,7 +370,7 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_ppc64le_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformlinux-riscv64rust_archriscv64gc-unknown-linux-gnurust_arch__h33a17b78
+          - CONFIG: linux_ppc64le_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformlinux-riscv64rust_archriscv64gc-unkno_h33a17b78
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -382,7 +382,7 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_riscv64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKNOWN_LINUX_GNUrust_defa_h1be55c91
+          - CONFIG: linux_riscv64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_64_UNKN_h1be55c91
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -394,7 +394,7 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_riscv64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformlinux-aarch64rust_archaarch64-unknown-linux-gnurust_arch_envAARCH64_UNKNOWN_LINUX_GNUru_h17dfef27
+          - CONFIG: linux_riscv64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformlinux-aarch64rust_archaarch64-unknown-linux-gnurust_arch_envAARCH_h17dfef27
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -406,7 +406,7 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_riscv64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arch_envPOWERPC64LE_UNKNOWN_LIN_h9f2c044b
+          - CONFIG: linux_riscv64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arch_envP_h9f2c044b
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -418,7 +418,7 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_riscv64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformlinux-riscv64rust_archriscv64gc-unknown-linux-gnurust_arch_envRISCV64GC_UNKNOWN_LINUX_G_h5d146df3
+          - CONFIG: linux_riscv64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformlinux-riscv64rust_archriscv64gc-unknown-linux-gnurust_arch_envRIS_h5d146df3
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -430,7 +430,7 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_riscv64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformlinux-64rust_archx86_64-unknown-linux-gnurust_arch_envX86_6_h1d5256e2
+          - CONFIG: linux_riscv64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformlinux-64rust_archx86_64-unknown-linux_h1d5256e2
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -442,7 +442,7 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_riscv64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformlinux-aarch64rust_archaarch64-unknown-linux-gnurust_arch_en_h0b866025
+          - CONFIG: linux_riscv64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformlinux-aarch64rust_archaarch64-unknown_h0b866025
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -454,7 +454,7 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_riscv64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformlinux-ppc64lerust_archpowerpc64le-unknown-linux-gnurust_arc_hcdcbfc27
+          - CONFIG: linux_riscv64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformlinux-ppc64lerust_archpowerpc64le-unk_hcdcbfc27
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -466,7 +466,7 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_riscv64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformlinux-riscv64rust_archriscv64gc-unknown-linux-gnurust_arch__hc903b63a
+          - CONFIG: linux_riscv64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformlinux-riscv64rust_archriscv64gc-unkno_hc903b63a
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma10
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -478,7 +478,7 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
-          - CONFIG: win_64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCversion1.99.0
+          - CONFIG: win_64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVC_h7d8bec2e
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
             build_platform: win-64
@@ -490,7 +490,7 @@ jobs:
             resize_partitions: False
             runs_on: ['windows-2022']
             tools_install_dir: D:\Miniforge
-          - CONFIG: win_64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformwin-arm64rust_archaarch64-pc-windows-msvcrust_arch_envAARCH64_PC_WINDOWS_MSVCversion1.99.0
+          - CONFIG: win_64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformwin-arm64rust_archaarch64-pc-windows-msvcrust_arch_envAARCH64_PC_WINDOWS_h25c0b4e6
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
             build_platform: win-64
@@ -502,7 +502,7 @@ jobs:
             resize_partitions: False
             runs_on: ['windows-2022']
             tools_install_dir: D:\Miniforge
-          - CONFIG: win_64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOW_h45bb8328
+          - CONFIG: win_64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_ar_h45bb8328
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
             build_platform: win-64
@@ -514,7 +514,7 @@ jobs:
             resize_partitions: False
             runs_on: ['windows-2022']
             tools_install_dir: D:\Miniforge
-          - CONFIG: win_64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformwin-arm64rust_archaarch64-pc-windows-msvcrust_arch_envAARCH64_PC_W_h5c508b26
+          - CONFIG: win_64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformwin-arm64rust_archaarch64-pc-windows-msvcrus_h5c508b26
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
             build_platform: win-64
@@ -526,7 +526,7 @@ jobs:
             resize_partitions: False
             runs_on: ['windows-2022']
             tools_install_dir: D:\Miniforge
-          - CONFIG: win_arm64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCversion1.99.0
+          - CONFIG: win_arm64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_M_hd0a621f4
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
             build_platform: win-64
@@ -538,7 +538,7 @@ jobs:
             resize_partitions: False
             runs_on: ['windows-2022']
             tools_install_dir: D:\Miniforge
-          - CONFIG: win_arm64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformwin-arm64rust_archaarch64-pc-windows-msvcrust_arch_envAARCH64_PC_WINDOWS_MSVCversion1.99.0
+          - CONFIG: win_arm64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformwin-arm64rust_archaarch64-pc-windows-msvcrust_arch_envAARCH64_PC_WIND_h80c1cb18
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
             build_platform: win-64
@@ -550,7 +550,7 @@ jobs:
             resize_partitions: False
             runs_on: ['windows-2022']
             tools_install_dir: D:\Miniforge
-          - CONFIG: win_arm64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WIN_h3ea37605
+          - CONFIG: win_arm64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_h3ea37605
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
             build_platform: win-64
@@ -562,7 +562,7 @@ jobs:
             resize_partitions: False
             runs_on: ['windows-2022']
             tools_install_dir: D:\Miniforge
-          - CONFIG: win_arm64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformwin-arm64rust_archaarch64-pc-windows-msvcrust_arch_envAARCH64_P_h1552e196
+          - CONFIG: win_arm64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformwin-arm64rust_archaarch64-pc-windows-msvc_h1552e196
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
             build_platform: win-64
