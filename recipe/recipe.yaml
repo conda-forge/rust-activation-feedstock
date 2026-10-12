@@ -1,0 +1,107 @@
+recipe:
+  name: rust-activation
+  version: ${{ version }}
+
+build:
+  number: 0
+
+outputs:
+  - package:
+      name: rust_${{ cross_target_platform }}
+    build:
+      skip: win and vc < 14
+      script:
+        file: ${{ 'bld.bat' if win else 'build.sh' }}
+        env:
+          rust_arch: ${{ rust_arch }}
+          rust_arch_env: ${{ rust_arch_env }}
+          rust_arch_env_build: ${{ rust_arch_env_build }}
+          rust_default_cc: ${{ rust_default_cc }}
+          rust_default_cc_build: ${{ rust_default_cc_build }}
+          cross_target_platform: ${{ cross_target_platform }}
+    requirements:
+      host:
+        - rust-std-${{ rust_arch }}
+      run:
+        - rust ${{ version }}.*
+        - rust-std-${{ rust_arch }} ${{ version }}.*
+        - if: cross_target_platform is startingwith('linux')
+          then:
+            - gcc_${{ cross_target_platform }}
+            - sysroot_${{ target_platform }} >=${{ target_c_stdlib_version }}
+        - if: cross_target_platform is startingwith('osx')
+          then:
+            - clang_${{ cross_target_platform }}
+            - macosx_deployment_target_${{ cross_target_platform }} >=${{ target_c_stdlib_version }}
+        - if: cross_target_platform is startingwith('win')
+          then:
+            - if: unix
+              then:
+                - cmake
+                - ninja
+                - clang_${{ cross_target_platform }}
+            - if: osx
+              then: clang_impl_${{ target_platform }}
+            - if: win
+              then: vs_${{ cross_target_platform }} >=2019
+        - if: osx
+          then: ld64_${{ target_platform }}
+      run_exports:
+        strong_constraints:
+          - if: cross_target_platform is startingwith('linux')
+            then: __glibc >=${{ target_c_stdlib_version }}
+          - if: cross_target_platform is startingwith('osx')
+            then: __osx >=${{ target_c_stdlib_version }}
+    tests:
+      - script:
+          - if: win
+            then:
+              - set "REQUESTS_CA_BUNDLE="
+              - set "SSL_CERT_FILE="
+            else:
+              - unset REQUESTS_CA_BUNDLE
+              - unset SSL_CERT_FILE
+          - rustc --help
+          - rustdoc --help
+          - cargo --help
+          - cargo install --force xsv
+          - if: unix and cross_target_platform not in ['win-64', 'win-arm64']
+            then: file $PREFIX/bin/xsv
+          - if: unix and cross_target_platform == 'osx-arm64'
+            then: file $PREFIX/bin/xsv | grep "Mach-O 64-bit arm64 executable"
+          - if: unix and cross_target_platform == 'osx-64'
+            then: file $PREFIX/bin/xsv | grep "Mach-O 64-bit x86_64 executable"
+          - if: unix and cross_target_platform == 'linux-64'
+            then: file $PREFIX/bin/xsv | grep "ELF 64-bit LSB pie executable, x86-64"
+          - if: unix and cross_target_platform == 'linux-aarch64'
+            then: file $PREFIX/bin/xsv | grep "ELF 64-bit LSB pie executable, ARM aarch64"
+          - if: unix and cross_target_platform == 'linux-ppc64le'
+            then: file $PREFIX/bin/xsv | grep "ELF 64-bit LSB pie executable, 64-bit PowerPC"
+          - if: unix and cross_target_platform == 'linux-riscv64'
+            then: file $PREFIX/bin/xsv | grep "ELF 64-bit LSB pie executable, UCB RISC-V"
+          - if: unix and cross_target_platform == 'win-64'
+            then:
+              - file $PREFIX/Library/bin/xsv.exe
+              - file $PREFIX/Library/bin/xsv.exe | grep "PE32+ executable for MS Windows" | grep x86-64
+          - if: win
+            then: if not exist %PREFIX%\Library\bin\xsv.exe exit 1
+        requirements:
+          run:
+            - if: unix
+              then: file
+
+about:
+  homepage: https://www.rust-lang.org
+  summary: A safe systems programming language (conda activation scripts)
+  license: BSD-3-Clause
+  license_file: LICENSE.txt
+  description: |
+    Rust is a systems programming language that runs blazingly fast,
+    prevents segfaults, and guarantees thread safety.
+  documentation: https://doc.rust-lang.org/
+  repository: https://github.com/rust-lang
+
+extra:
+  recipe-maintainers:
+    - isuruf
+    - xhochy
