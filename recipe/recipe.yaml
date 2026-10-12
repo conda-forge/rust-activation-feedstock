@@ -4,7 +4,6 @@ package:
 
 build:
   number: 0
-  skip: win and vc < 14
   script:
     file: ${{ 'build.bat' if win else 'build.sh' }}
     env:
