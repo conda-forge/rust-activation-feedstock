@@ -50,9 +50,9 @@ requirements:
 
 tests:
   - script:
-      # clang_win-64's activation scripts need CI set before the test environment is activated.
+      # Forward CI before activating the test environment so clang_win-64 can find the WinSDK.
       env:
-        CI: "yup, it's CI"
+        CI: ${{ env.get('CI', default='') }}
       content:
         - if: win
           then:
