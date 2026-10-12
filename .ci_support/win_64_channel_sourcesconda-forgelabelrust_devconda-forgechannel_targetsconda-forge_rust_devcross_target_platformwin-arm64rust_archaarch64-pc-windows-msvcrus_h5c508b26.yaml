@@ -18,8 +18,6 @@ rust_default_cc_build:
 - clang-cl
 target_platform:
 - win-64
-vc:
-- '14'
 version:
 - 1.101.0
 zip_keys:
