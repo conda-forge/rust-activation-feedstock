@@ -50,9 +50,11 @@ requirements:
 
 tests:
   - script:
-      # Forward CI before activating the test environment so clang_win-64 can find the WinSDK.
+      # Forward cross-compilation settings before the test environment is activated.
       env:
         CI: ${{ env.get('CI', default='') }}
+        SDKROOT: ${{ env.get('SDKROOT', default='') }}
+        CONDA_BUILD_SYSROOT: ${{ env.get('CONDA_BUILD_SYSROOT', default='') }}
       content:
         - if: win
           then:
