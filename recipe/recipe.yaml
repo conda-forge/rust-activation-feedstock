@@ -6,7 +6,7 @@ build:
   number: 0
   skip: win and vc < 14
   script:
-    file: ${{ 'bld.bat' if win else 'build.sh' }}
+    file: ${{ 'build.bat' if win else 'build.sh' }}
     env:
       rust_arch: ${{ rust_arch }}
       rust_arch_env: ${{ rust_arch_env }}
