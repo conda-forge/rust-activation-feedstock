@@ -69,6 +69,7 @@ tests:
         - cargo install --force xsv
         - if: unix and cross_target_platform not in ['win-64', 'win-arm64']
           then: file $PREFIX/bin/xsv
+          else:  file $PREFIX/bin/xsv.exe
         - if: unix and cross_target_platform == 'osx-arm64'
           then: file $PREFIX/bin/xsv | grep "Mach-O 64-bit arm64 executable"
         - if: unix and cross_target_platform == 'osx-64'
