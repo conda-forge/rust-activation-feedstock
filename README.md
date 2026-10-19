@@ -41,87 +41,87 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>osx_64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_d_h88b0387c</td>
+              <td>osx_64_channel_targetsconda-forge_maincross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darw_h44b2e1af</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_d_h88b0387c" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_targetsconda-forge_maincross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-darw_h44b2e1af" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINr_hd57d04d0</td>
+              <td>osx_64_channel_targetsconda-forge_maincross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-_hc7c1f10e</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINr_hd57d04d0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_targetsconda-forge_maincross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-apple-_hc7c1f10e" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVC_h8e10fc5c</td>
+              <td>osx_64_channel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-clversion1.99.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVC_h8e10fc5c" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-clversion1.99.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch__h897bb4d7</td>
+              <td>osx_64_channel_targetsconda-forge_rust_devcross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-_h6407b6b6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch__h897bb4d7" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_targetsconda-forge_rust_devcross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-_h6407b6b6" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_a_ha14163bc</td>
+              <td>osx_64_channel_targetsconda-forge_rust_devcross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-ap_h35503fad</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_a_ha14163bc" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_targetsconda-forge_rust_devcross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-ap_h35503fad" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_ar_h3520d54f</td>
+              <td>osx_64_channel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-c_h40d03ef0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_ar_h3520d54f" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-c_h40d03ef0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrus_hf216a7af</td>
+              <td>osx_arm64_channel_targetsconda-forge_maincross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-d_h6e6ac449</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrus_hf216a7af" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_targetsconda-forge_maincross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-apple-d_h6e6ac449" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARW_h3dee294c</td>
+              <td>osx_arm64_channel_targetsconda-forge_maincross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-app_h411bffa7</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARW_h3dee294c" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_targetsconda-forge_maincross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64-app_h411bffa7" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_M_hd08673de</td>
+              <td>osx_arm64_channel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cl_hfdf2a221</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_sourcesconda-forgechannel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_M_hd08673de" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclang-cl_hfdf2a221" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformosx-64rust_archx86_64-apple-darwinrust_ar_h1f49b86e</td>
+              <td>osx_arm64_channel_targetsconda-forge_rust_devcross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-app_hd39f33f1</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformosx-64rust_archx86_64-apple-darwinrust_ar_h1f49b86e" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_targetsconda-forge_rust_devcross_target_platformosx-64rust_archx86_64-apple-darwinrust_arch_envX86_64_APPLE_DARWINrust_default_ccx86_64-app_hd39f33f1" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformosx-arm64rust_archaarch64-apple-darwinrus_h3997cdf1</td>
+              <td>osx_arm64_channel_targetsconda-forge_rust_devcross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64_hc6c35aa8</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformosx-arm64rust_archaarch64-apple-darwinrus_h3997cdf1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_targetsconda-forge_rust_devcross_target_platformosx-arm64rust_archaarch64-apple-darwinrust_arch_envAARCH64_APPLE_DARWINrust_default_ccarm64_hc6c35aa8" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_hd711cfb0</td>
+              <td>osx_arm64_channel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclan_h734377ac</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10833&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_sourcesconda-forgelabelrust_devconda-forgechannel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_hd711cfb0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/rust-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_targetsconda-forge_rust_devcross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCrust_default_ccclan_h734377ac" alt="variant">
                 </a>
               </td>
             </tr>
@@ -149,10 +149,10 @@ Current release info
 Installing rust-activation
 ==========================
 
-Installing `rust-activation` from the `conda-forge/label/rust_dev` channel can be achieved by adding `conda-forge/label/rust_dev` to your channels with:
+Installing `rust-activation` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
-conda config --add channels conda-forge/label/rust_dev
+conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
@@ -198,7 +198,7 @@ It is possible to list all of the versions of `rust_linux-64` available on your 
 <summary>With conda</summary>
 
 ```
-conda search rust_linux-64 --channel conda-forge/label/rust_dev
+conda search rust_linux-64 --channel conda-forge
 ```
 
 </details>
@@ -207,7 +207,7 @@ conda search rust_linux-64 --channel conda-forge/label/rust_dev
 <summary>With mamba</summary>
 
 ```
-mamba search rust_linux-64 --channel conda-forge/label/rust_dev
+mamba search rust_linux-64 --channel conda-forge
 ```
 
 </details>
@@ -216,7 +216,7 @@ mamba search rust_linux-64 --channel conda-forge/label/rust_dev
 <summary>With pixi</summary>
 
 ```
-pixi search rust_linux-64 --channel conda-forge/label/rust_dev
+pixi search rust_linux-64 --channel conda-forge
 ```
 
 </details>
@@ -226,16 +226,17 @@ pixi search rust_linux-64 --channel conda-forge/label/rust_dev
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search rust_linux-64 --channel conda-forge/label/rust_dev
+mamba repoquery search rust_linux-64 --channel conda-forge
 
 # List packages depending on `rust_linux-64`:
-mamba repoquery whoneeds rust_linux-64 --channel conda-forge/label/rust_dev
+mamba repoquery whoneeds rust_linux-64 --channel conda-forge
 
 # List dependencies of `rust_linux-64`:
-mamba repoquery depends rust_linux-64 --channel conda-forge/label/rust_dev
+mamba repoquery depends rust_linux-64 --channel conda-forge
 ```
 
 </details>
+
 
 
 About conda-forge
@@ -252,9 +253,7 @@ for each of the installable packages. Such a repository is known as a *feedstock
 A feedstock is made up of a conda recipe (the instructions on what and how to build
 the package) and the necessary configurations for automatic building using freely
 available continuous integration services. Thanks to the awesome service provided by
-[Azure](https://azure.microsoft.com/en-us/services/devops/), [GitHub](https://github.com/),
-[CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
-[Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
+[Azure](https://azure.microsoft.com/en-us/services/devops/) and [GitHub](https://github.com/)
 it is possible to build and upload installable packages to the
 [conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
