@@ -82,9 +82,7 @@ tests:
         - if: unix and cross_target_platform == 'linux-riscv64'
           then: file $PREFIX/bin/xsv | grep "ELF 64-bit LSB pie executable, UCB RISC-V"
         - if: unix and cross_target_platform == 'win-64'
-          then:
-            - file $PREFIX/Library/bin/xsv.exe
-            - file $PREFIX/Library/bin/xsv.exe | grep "PE32+ executable for MS Windows" | grep x86-64
+          then: file $PREFIX/Library/bin/xsv.exe | grep "PE32+ executable for MS Windows" | grep x86-64
         - if: win
           then: if not exist %PREFIX%\Library\bin\xsv.exe exit 1
     requirements:
