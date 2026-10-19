@@ -5,7 +5,6 @@ package:
 build:
   number: 0
   script:
-    file: ${{ 'build.bat' if win else 'build.sh' }}
     env:
       rust_arch: ${{ rust_arch }}
       rust_arch_env: ${{ rust_arch_env }}
