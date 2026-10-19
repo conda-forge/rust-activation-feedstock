@@ -4,14 +4,14 @@ package:
 
 build:
   number: 0
-  script:
-    env:
-      rust_arch: ${{ rust_arch }}
-      rust_arch_env: ${{ rust_arch_env }}
-      rust_arch_env_build: ${{ rust_arch_env_build | default('') }}
-      rust_default_cc: ${{ rust_default_cc }}
-      rust_default_cc_build: ${{ rust_default_cc_build | default('') }}
-      cross_target_platform: ${{ cross_target_platform }}
+  variant:
+    use_keys:
+      - rust_arch
+      - rust_arch_env
+      - rust_arch_env_build
+      - rust_default_cc
+      - rust_default_cc_build
+      - cross_target_platform
 
 requirements:
   host:
