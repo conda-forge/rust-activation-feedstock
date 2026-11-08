@@ -26,6 +26,12 @@ export CARGO="${CONDA_PREFIX}/bin/cargo"
 export RUSTC="${CONDA_PREFIX}/bin/rustc"
 export RUSTDOC="${CONDA_PREFIX}/bin/rustdoc"
 
+# Always link against the OpenSSL provided by conda-forge instead of the
+# vendored copy that openssl-sys compiles when the (often transitively
+# enabled) `vendored` feature is active.
+# https://docs.rs/openssl/latest/openssl/#manual
+export OPENSSL_NO_VENDOR=1
+
 export CARGO_INSTALL_ROOT="${CARGO_INSTALL_ROOT:-${CONDA_PREFIX}}"
 
 if [[ "@cross_target_platform@" == linux*  ]]; then
