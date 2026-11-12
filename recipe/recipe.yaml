@@ -3,7 +3,7 @@ package:
   version: ${{ version }}
 
 build:
-  number: 0
+  number: 1
   variant:
     use_keys:
       - rust_arch
@@ -89,6 +89,27 @@ tests:
       run:
         - if: unix
           then: file
+  - if: unix and cross_target_platform is startingwith('osx')
+    then:
+      files:
+        recipe:
+          - fwtest/
+      script:
+        env:
+          CI: ${{ env.get('CI', default='') }}
+          SDKROOT: ${{ env.get('SDKROOT', default='') }}
+          CONDA_BUILD_SYSROOT: ${{ env.get('CONDA_BUILD_SYSROOT', default='') }}
+        content:
+          # A framework a crate links with #[link] must stay linked when no symbol references
+          # it: objc2 looks classes up by name, and without it binaries panic at runtime
+          - unset REQUESTS_CA_BUNDLE
+          - unset SSL_CERT_FILE
+          # The linker flags under test are only set inside conda-build
+          - export CONDA_BUILD=1
+          - source "${PREFIX}"/etc/conda/activate.d/activate_rust_*.sh
+          - cargo build --release --manifest-path fwtest/Cargo.toml
+          - $OTOOL -L fwtest/target/${CARGO_BUILD_TARGET}/release/fwtest
+          - $OTOOL -L fwtest/target/${CARGO_BUILD_TARGET}/release/fwtest | grep ServiceManagement.framework
 
 about:
   homepage: https://www.rust-lang.org
