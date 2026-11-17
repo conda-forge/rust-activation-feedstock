@@ -66,9 +66,11 @@ tests:
         - rustdoc --help
         - cargo --help
         - cargo install --force xsv
-        - if: unix and cross_target_platform not in ['win-64', 'win-arm64']
-          then: file $PREFIX/bin/xsv
-          else:  file $PREFIX/bin/xsv.exe
+        - if: unix
+          then:
+            - if: cross_target_platform is startingwith('win')
+              then: file $PREFIX/bin/xsv.exe
+              else: file $PREFIX/bin/xsv
         - if: unix and cross_target_platform == 'osx-arm64'
           then: file $PREFIX/bin/xsv | grep "Mach-O 64-bit arm64 executable"
         - if: unix and cross_target_platform == 'osx-64'
@@ -85,6 +87,8 @@ tests:
           then: file $PREFIX/Library/bin/xsv.exe | grep "PE32+ executable for MS Windows" | grep x86-64
         - if: win
           then: if not exist %PREFIX%\Library\bin\xsv.exe exit 1
+        - if: win and cross_target_platform == 'win-32'
+          then: dumpbin /headers %PREFIX%\Library\bin\xsv.exe | findstr /C:"14C machine (x86)"
     requirements:
       run:
         - if: unix

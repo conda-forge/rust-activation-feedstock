@@ -143,16 +143,17 @@ Current release info
 | [![Conda Recipe](https://img.shields.io/badge/recipe-rust__linux--riscv64-green.svg)](https://anaconda.org/conda-forge/rust_linux-riscv64) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/rust_linux-riscv64.svg)](https://anaconda.org/conda-forge/rust_linux-riscv64) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/rust_linux-riscv64.svg)](https://anaconda.org/conda-forge/rust_linux-riscv64) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/rust_linux-riscv64.svg)](https://anaconda.org/conda-forge/rust_linux-riscv64) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-rust__osx--64-green.svg)](https://anaconda.org/conda-forge/rust_osx-64) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/rust_osx-64.svg)](https://anaconda.org/conda-forge/rust_osx-64) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/rust_osx-64.svg)](https://anaconda.org/conda-forge/rust_osx-64) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/rust_osx-64.svg)](https://anaconda.org/conda-forge/rust_osx-64) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-rust__osx--arm64-green.svg)](https://anaconda.org/conda-forge/rust_osx-arm64) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/rust_osx-arm64.svg)](https://anaconda.org/conda-forge/rust_osx-arm64) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/rust_osx-arm64.svg)](https://anaconda.org/conda-forge/rust_osx-arm64) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/rust_osx-arm64.svg)](https://anaconda.org/conda-forge/rust_osx-arm64) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-rust__win--32-green.svg)](https://anaconda.org/conda-forge/rust_win-32) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/rust_win-32.svg)](https://anaconda.org/conda-forge/rust_win-32) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/rust_win-32.svg)](https://anaconda.org/conda-forge/rust_win-32) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/rust_win-32.svg)](https://anaconda.org/conda-forge/rust_win-32) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-rust__win--64-green.svg)](https://anaconda.org/conda-forge/rust_win-64) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/rust_win-64.svg)](https://anaconda.org/conda-forge/rust_win-64) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/rust_win-64.svg)](https://anaconda.org/conda-forge/rust_win-64) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/rust_win-64.svg)](https://anaconda.org/conda-forge/rust_win-64) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-rust__win--arm64-green.svg)](https://anaconda.org/conda-forge/rust_win-arm64) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/rust_win-arm64.svg)](https://anaconda.org/conda-forge/rust_win-arm64) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/rust_win-arm64.svg)](https://anaconda.org/conda-forge/rust_win-arm64) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/rust_win-arm64.svg)](https://anaconda.org/conda-forge/rust_win-arm64) |
 
 Installing rust-activation
 ==========================
 
-Installing `rust-activation` from the `conda-forge/label/rust_dev` channel can be achieved by adding `conda-forge/label/rust_dev` to your channels with:
+Installing `rust-activation` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
-conda config --add channels conda-forge/label/rust_dev
+conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
@@ -163,7 +164,7 @@ How to use
 <summary>With conda</summary>
 
 ```
-conda install rust_linux-64 rust_linux-aarch64 rust_linux-ppc64le rust_linux-riscv64 rust_osx-64 rust_osx-arm64 rust_win-64 rust_win-arm64
+conda install rust_linux-64 rust_linux-aarch64 rust_linux-ppc64le rust_linux-riscv64 rust_osx-64 rust_osx-arm64 rust_win-32 rust_win-64 rust_win-arm64
 ```
 
 </details>
@@ -172,7 +173,7 @@ conda install rust_linux-64 rust_linux-aarch64 rust_linux-ppc64le rust_linux-ris
 <summary>With mamba</summary>
 
 ```
-mamba install rust_linux-64 rust_linux-aarch64 rust_linux-ppc64le rust_linux-riscv64 rust_osx-64 rust_osx-arm64 rust_win-64 rust_win-arm64
+mamba install rust_linux-64 rust_linux-aarch64 rust_linux-ppc64le rust_linux-riscv64 rust_osx-64 rust_osx-arm64 rust_win-32 rust_win-64 rust_win-arm64
 ```
 
 </details>
@@ -182,9 +183,9 @@ mamba install rust_linux-64 rust_linux-aarch64 rust_linux-ppc64le rust_linux-ris
 
 ```
 # for adding to your local project
-pixi add rust_linux-64 rust_linux-aarch64 rust_linux-ppc64le rust_linux-riscv64 rust_osx-64 rust_osx-arm64 rust_win-64 rust_win-arm64
+pixi add rust_linux-64 rust_linux-aarch64 rust_linux-ppc64le rust_linux-riscv64 rust_osx-64 rust_osx-arm64 rust_win-32 rust_win-64 rust_win-arm64
 # for installing globally
-pixi global install rust_linux-64 rust_linux-aarch64 rust_linux-ppc64le rust_linux-riscv64 rust_osx-64 rust_osx-arm64 rust_win-64 rust_win-arm64
+pixi global install rust_linux-64 rust_linux-aarch64 rust_linux-ppc64le rust_linux-riscv64 rust_osx-64 rust_osx-arm64 rust_win-32 rust_win-64 rust_win-arm64
 ```
 
 </details>
@@ -198,7 +199,7 @@ It is possible to list all of the versions of `rust_linux-64` available on your 
 <summary>With conda</summary>
 
 ```
-conda search rust_linux-64 --channel conda-forge/label/rust_dev
+conda search rust_linux-64 --channel conda-forge
 ```
 
 </details>
@@ -207,7 +208,7 @@ conda search rust_linux-64 --channel conda-forge/label/rust_dev
 <summary>With mamba</summary>
 
 ```
-mamba search rust_linux-64 --channel conda-forge/label/rust_dev
+mamba search rust_linux-64 --channel conda-forge
 ```
 
 </details>
@@ -216,7 +217,7 @@ mamba search rust_linux-64 --channel conda-forge/label/rust_dev
 <summary>With pixi</summary>
 
 ```
-pixi search rust_linux-64 --channel conda-forge/label/rust_dev
+pixi search rust_linux-64 --channel conda-forge
 ```
 
 </details>
@@ -226,13 +227,13 @@ pixi search rust_linux-64 --channel conda-forge/label/rust_dev
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search rust_linux-64 --channel conda-forge/label/rust_dev
+mamba repoquery search rust_linux-64 --channel conda-forge
 
 # List packages depending on `rust_linux-64`:
-mamba repoquery whoneeds rust_linux-64 --channel conda-forge/label/rust_dev
+mamba repoquery whoneeds rust_linux-64 --channel conda-forge
 
 # List dependencies of `rust_linux-64`:
-mamba repoquery depends rust_linux-64 --channel conda-forge/label/rust_dev
+mamba repoquery depends rust_linux-64 --channel conda-forge
 ```
 
 </details>

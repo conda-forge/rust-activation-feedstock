@@ -478,6 +478,18 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
+          - CONFIG: win_64_channel_targetsconda-forge_maincross_target_platformwin-32rust_archi686-pc-windows-msvcrust_arch_envI686_PC_WINDOWS_MSVCversion1.100.0
+            STORE_BUILD_ARTIFACTS: False
+            UPLOAD_PACKAGES: True
+            build_platform: win-64
+            build_workspace_dir: D:\\bld\\
+            docker_run_args: 
+            free_disk_space: skip
+            os: windows
+            pagefile_size: 0
+            resize_partitions: False
+            runs_on: ['windows-2022']
+            tools_install_dir: D:\Miniforge
           - CONFIG: win_64_channel_targetsconda-forge_maincross_target_platformwin-64rust_archx86_64-pc-windows-msvcrust_arch_envX86_64_PC_WINDOWS_MSVCversion1.100.0
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
@@ -515,6 +527,18 @@ jobs:
             runs_on: ['windows-2022']
             tools_install_dir: D:\Miniforge
           - CONFIG: win_64_channel_targetsconda-forge_rust_devcross_target_platformwin-arm64rust_archaarch64-pc-windows-msvcrust_arch_envAARCH64_PC_WINDOWS_MSVCversion1.102.0
+            STORE_BUILD_ARTIFACTS: False
+            UPLOAD_PACKAGES: True
+            build_platform: win-64
+            build_workspace_dir: D:\\bld\\
+            docker_run_args: 
+            free_disk_space: skip
+            os: windows
+            pagefile_size: 0
+            resize_partitions: False
+            runs_on: ['windows-2022']
+            tools_install_dir: D:\Miniforge
+          - CONFIG: win_arm64_channel_targetsconda-forge_maincross_target_platformwin-32rust_archi686-pc-windows-msvcrust_arch_envI686_PC_WINDOWS_MSVCversion1.100.0
             STORE_BUILD_ARTIFACTS: False
             UPLOAD_PACKAGES: True
             build_platform: win-64
