@@ -49,7 +49,9 @@ elif [[ "@cross_target_platform@" == win* ]]; then
 elif [[ "@cross_target_platform@" == osx* ]]; then
   export CARGO_BUILD_RUSTFLAGS="-C link-arg=-Wl,-rpath,${PREFIX:-${CONDA_PREFIX}}/lib"
   if [[ "${CONDA_BUILD:-}" != "" ]]; then
-    export CARGO_BUILD_RUSTFLAGS="$CARGO_BUILD_RUSTFLAGS -C link-arg=-Wl,-headerpad_max_install_names -C link-arg=-Wl,-dead_strip_dylibs"
+    # No -dead_strip_dylibs: rustc only links what crates ask for, and crates like objc2 need
+    # frameworks they reference by name at runtime, not by symbol
+    export CARGO_BUILD_RUSTFLAGS="$CARGO_BUILD_RUSTFLAGS -C link-arg=-Wl,-headerpad_max_install_names"
   fi
 fi
 
